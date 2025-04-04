@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e192e463db974cfa5e41e10b8131020 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e192e463db974cfa5e41e10b8131020" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e192e463db974cfa5e41e10b8131020 = L.map(
+                "map_6e192e463db974cfa5e41e10b8131020",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_db6f1d2c88094a329196c3746783ef18 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+            var circle_marker_fb1b0de9a607eeb5c3b0fab437991bbf = L.circleMarker(
+                [39.1583178, -80.0486604],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_ff26e4ac00432d98ffc6da4c244f6c32 = L.popup({"maxWidth": 250});
+
+        
+            var html_ee2398bf39f206c229598714359f72a2 = $(`<div id="html_ee2398bf39f206c229598714359f72a2" style="width: 100.0%; height: 100.0%;"><b>Alderson Broaddus University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_ff26e4ac00432d98ffc6da4c244f6c32.setContent(html_ee2398bf39f206c229598714359f72a2);
+        
+
+        circle_marker_fb1b0de9a607eeb5c3b0fab437991bbf.bindPopup(popup_ff26e4ac00432d98ffc6da4c244f6c32)
+        ;
+
+        
+    
+    
+            var circle_marker_99b90827ac3ad51a331c05643093df01 = L.circleMarker(
+                [12.7304796, 77.7067921],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_276c8ff9d0ac348f4efa0efb892fb13d = L.popup({"maxWidth": 250});
+
+        
+            var html_b6cde010b9647d20af7316504a46c94b = $(`<div id="html_b6cde010b9647d20af7316504a46c94b" style="width: 100.0%; height: 100.0%;"><b>Alliance University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_276c8ff9d0ac348f4efa0efb892fb13d.setContent(html_b6cde010b9647d20af7316504a46c94b);
+        
+
+        circle_marker_99b90827ac3ad51a331c05643093df01.bindPopup(popup_276c8ff9d0ac348f4efa0efb892fb13d)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1a3608bd42585db0f5d15fcf8491ec = L.circleMarker(
+                [37.7869522, -122.4102325],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_708f09a4d29465358d2bc2ecbb8a1795 = L.popup({"maxWidth": 250});
+
+        
+            var html_3ad3c07e8654b2eb3604a8ce3daae0fc = $(`<div id="html_3ad3c07e8654b2eb3604a8ce3daae0fc" style="width: 100.0%; height: 100.0%;"><b>American Conservatory Theater Foundation</b><br>Year of Closure: 2022</div>`)[0];
+            popup_708f09a4d29465358d2bc2ecbb8a1795.setContent(html_3ad3c07e8654b2eb3604a8ce3daae0fc);
+        
+
+        circle_marker_4c1a3608bd42585db0f5d15fcf8491ec.bindPopup(popup_708f09a4d29465358d2bc2ecbb8a1795)
+        ;
+
+        
+    
+    
+            var circle_marker_dd775dae5936c6c6d3caa05da35dde23 = L.circleMarker(
+                [41.561437, -93.646854],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_c9b7ecdc5babb3e58ff3f9c2adf719f4 = L.popup({"maxWidth": 250});
+
+        
+            var html_ab9deaeffd44ccf4917385a9f1ff5d5c = $(`<div id="html_ab9deaeffd44ccf4917385a9f1ff5d5c" style="width: 100.0%; height: 100.0%;"><b>American Institute of Business</b><br>Year of Closure: 2016</div>`)[0];
+            popup_c9b7ecdc5babb3e58ff3f9c2adf719f4.setContent(html_ab9deaeffd44ccf4917385a9f1ff5d5c);
+        
+
+        circle_marker_dd775dae5936c6c6d3caa05da35dde23.bindPopup(popup_c9b7ecdc5babb3e58ff3f9c2adf719f4)
+        ;
+
+        
+    
+    
+            var circle_marker_32bafd468910d8d4af95691ea067b5ba = L.circleMarker(
+                [42.3248568, -71.1889601],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_6917e90b091c1e842de56afdf0ca64e8 = L.popup({"maxWidth": 250});
+
+        
+            var html_86530b4a839a4e0ac3d78e08d63a6e29 = $(`<div id="html_86530b4a839a4e0ac3d78e08d63a6e29" style="width: 100.0%; height: 100.0%;"><b>Andover Newton Theological School</b><br>Year of Closure: 2019</div>`)[0];
+            popup_6917e90b091c1e842de56afdf0ca64e8.setContent(html_86530b4a839a4e0ac3d78e08d63a6e29);
+        
+
+        circle_marker_32bafd468910d8d4af95691ea067b5ba.bindPopup(popup_6917e90b091c1e842de56afdf0ca64e8)
+        ;
+
+        
+    
+    
+            var circle_marker_19453c92df9a53cf1b50008e73c35bc0 = L.circleMarker(
+                [35.9225125, -78.8413111],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_d91bf6746d3cc8dc51d433c305288236 = L.popup({"maxWidth": 250});
+
+        
+            var html_d2d52a6550a0e5f10e621f45fa9fab69 = $(`<div id="html_d2d52a6550a0e5f10e621f45fa9fab69" style="width: 100.0%; height: 100.0%;"><b>Apex School Of Theology</b><br>Year of Closure: 2020</div>`)[0];
+            popup_d91bf6746d3cc8dc51d433c305288236.setContent(html_d2d52a6550a0e5f10e621f45fa9fab69);
+        
+
+        circle_marker_19453c92df9a53cf1b50008e73c35bc0.bindPopup(popup_d91bf6746d3cc8dc51d433c305288236)
+        ;
+
+        
+    
+    
+            var circle_marker_ae1893b8b209f91a32d5b6085a7214cd = L.circleMarker(
+                [42.445168, -71.684493],
+                {"bubblingMouseEvents": true, "color": "#ffe38bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe38bff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_4d4341b9edd2e0c4168f3a4aaea0fa75 = L.popup({"maxWidth": 250});
+
+        
+            var html_260b38751cb69785d4829f3af4fe6aa7 = $(`<div id="html_260b38751cb69785d4829f3af4fe6aa7" style="width: 100.0%; height: 100.0%;"><b>Atlantic Union College</b><br>Year of Closure: 2011</div>`)[0];
+            popup_4d4341b9edd2e0c4168f3a4aaea0fa75.setContent(html_260b38751cb69785d4829f3af4fe6aa7);
+        
+
+        circle_marker_ae1893b8b209f91a32d5b6085a7214cd.bindPopup(popup_4d4341b9edd2e0c4168f3a4aaea0fa75)
+        ;
+
+        
+    
+    
+            var circle_marker_8903b3787f0476d34e7cb80b5ad111b8 = L.circleMarker(
+                [33.4707366, -81.9827533],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_4a020775bdfb3fbc2dd27ec73704ee44 = L.popup({"maxWidth": 250});
+
+        
+            var html_41e7efb3f9ecfb501fcd7b76d8f1e55b = $(`<div id="html_41e7efb3f9ecfb501fcd7b76d8f1e55b" style="width: 100.0%; height: 100.0%;"><b>Augusta Area Dietetic Internship, Univ Hospital</b><br>Year of Closure: 2015</div>`)[0];
+            popup_4a020775bdfb3fbc2dd27ec73704ee44.setContent(html_41e7efb3f9ecfb501fcd7b76d8f1e55b);
+        
+
+        circle_marker_8903b3787f0476d34e7cb80b5ad111b8.bindPopup(popup_4a020775bdfb3fbc2dd27ec73704ee44)
+        ;
+
+        
+    
+    
+            var circle_marker_5e6f1eb00c16a2410b779d185a5aba04 = L.circleMarker(
+                [39.3924937, -76.606127],
+                {"bubblingMouseEvents": true, "color": "#fff6b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff6b6ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_8dd199879d70eeda27218e40e368ce34 = L.popup({"maxWidth": 250});
+
+        
+            var html_f16f4c2f6abc8d2e0147fd008cbd37fa = $(`<div id="html_f16f4c2f6abc8d2e0147fd008cbd37fa" style="width: 100.0%; height: 100.0%;"><b>Baltimore Hebrew University</b><br>Year of Closure: 2009</div>`)[0];
+            popup_8dd199879d70eeda27218e40e368ce34.setContent(html_f16f4c2f6abc8d2e0147fd008cbd37fa);
+        
+
+        circle_marker_5e6f1eb00c16a2410b779d185a5aba04.bindPopup(popup_8dd199879d70eeda27218e40e368ce34)
+        ;
+
+        
+    
+    
+            var circle_marker_ae369a5d53320a45bde435171eb5dd78 = L.circleMarker(
+                [37.5785608, -77.4515911],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_bfd7b459dc1b56f9cb06055c1ed03ec0 = L.popup({"maxWidth": 250});
+
+        
+            var html_4f248343a54212990b84e1570cb37234 = $(`<div id="html_4f248343a54212990b84e1570cb37234" style="width: 100.0%; height: 100.0%;"><b>Baptist Theological Seminary at Richmond</b><br>Year of Closure: 2019</div>`)[0];
+            popup_bfd7b459dc1b56f9cb06055c1ed03ec0.setContent(html_4f248343a54212990b84e1570cb37234);
+        
+
+        circle_marker_ae369a5d53320a45bde435171eb5dd78.bindPopup(popup_bfd7b459dc1b56f9cb06055c1ed03ec0)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a5c79505d3f9f2c4eec2c2f16080d7 = L.circleMarker(
+                [45.4862217, -122.8014188],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0747b308eb101dd2a3aab2d90454e67c = L.popup({"maxWidth": 250});
+
+        
+            var html_2b2446a0d43a988c30455debaf5cfc08 = $(`<div id="html_2b2446a0d43a988c30455debaf5cfc08" style="width: 100.0%; height: 100.0%;"><b>Birthingway College of Midwifery</b><br>Year of Closure: 2022</div>`)[0];
+            popup_0747b308eb101dd2a3aab2d90454e67c.setContent(html_2b2446a0d43a988c30455debaf5cfc08);
+        
+
+        circle_marker_c0a5c79505d3f9f2c4eec2c2f16080d7.bindPopup(popup_0747b308eb101dd2a3aab2d90454e67c)
+        ;
+
+        
+    
+    
+            var circle_marker_829021bb4a8fb24d366e0ebffc98db94 = L.circleMarker(
+                [40.0552141, -75.374005],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_72ff6706ecd2b2830e124e6b7258b3c8 = L.popup({"maxWidth": 250});
+
+        
+            var html_4dbace4e2430b931b05e0a66d51dec7f = $(`<div id="html_4dbace4e2430b931b05e0a66d51dec7f" style="width: 100.0%; height: 100.0%;"><b>Cabrini University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_72ff6706ecd2b2830e124e6b7258b3c8.setContent(html_4dbace4e2430b931b05e0a66d51dec7f);
+        
+
+        circle_marker_829021bb4a8fb24d366e0ebffc98db94.bindPopup(popup_72ff6706ecd2b2830e124e6b7258b3c8)
+        ;
+
+        
+    
+    
+            var circle_marker_951199c8fabbfef37ded15e97e27f253 = L.circleMarker(
+                [36.7500277, -119.7108224],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_372f426d8ee252d512b34a830394b1ef = L.popup({"maxWidth": 250});
+
+        
+            var html_fe346ab0e9ba366c2fb24e0609563d49 = $(`<div id="html_fe346ab0e9ba366c2fb24e0609563d49" style="width: 100.0%; height: 100.0%;"><b>California Christian College</b><br>Year of Closure: 2023</div>`)[0];
+            popup_372f426d8ee252d512b34a830394b1ef.setContent(html_fe346ab0e9ba366c2fb24e0609563d49);
+        
+
+        circle_marker_951199c8fabbfef37ded15e97e27f253.bindPopup(popup_372f426d8ee252d512b34a830394b1ef)
+        ;
+
+        
+    
+    
+            var circle_marker_96c5582cc6cd1a8e5f75d1652bfbdd8c = L.circleMarker(
+                [32.7180094, -117.1680281],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_2d698b09c6260d19274467426c9ffcd8 = L.popup({"maxWidth": 250});
+
+        
+            var html_106cf90af875e739c9794e274774893d = $(`<div id="html_106cf90af875e739c9794e274774893d" style="width: 100.0%; height: 100.0%;"><b>California International Business University</b><br>Year of Closure: 2020</div>`)[0];
+            popup_2d698b09c6260d19274467426c9ffcd8.setContent(html_106cf90af875e739c9794e274774893d);
+        
+
+        circle_marker_96c5582cc6cd1a8e5f75d1652bfbdd8c.bindPopup(popup_2d698b09c6260d19274467426c9ffcd8)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1c9c150cfede2d2fa3ad0b658e00f3 = L.circleMarker(
+                [40.241562, -75.283737],
+                {"bubblingMouseEvents": true, "color": "#feb24cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb24cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0930b971ac00c51989bdb6d86cf8d5b6 = L.popup({"maxWidth": 250});
+
+        
+            var html_b60610fcd71a8542eacaa9dfd9b12b9b = $(`<div id="html_b60610fcd71a8542eacaa9dfd9b12b9b" style="width: 100.0%; height: 100.0%;"><b>Calvary Baptist Theological Seminary</b><br>Year of Closure: 2014</div>`)[0];
+            popup_0930b971ac00c51989bdb6d86cf8d5b6.setContent(html_b60610fcd71a8542eacaa9dfd9b12b9b);
+        
+
+        circle_marker_6e1c9c150cfede2d2fa3ad0b658e00f3.bindPopup(popup_0930b971ac00c51989bdb6d86cf8d5b6)
+        ;
+
+        
+    
+    
+            var circle_marker_959735adcc80319fafb8804ad28e9b5e = L.circleMarker(
+                [42.929878, -75.850929],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_a8751ebfbbea46acfcac7e9cb10711b1 = L.popup({"maxWidth": 250});
+
+        
+            var html_a0a010858f8e63150b2f66ba5f5d5ee7 = $(`<div id="html_a0a010858f8e63150b2f66ba5f5d5ee7" style="width: 100.0%; height: 100.0%;"><b>Cazenovia College</b><br>Year of Closure: 2023</div>`)[0];
+            popup_a8751ebfbbea46acfcac7e9cb10711b1.setContent(html_a0a010858f8e63150b2f66ba5f5d5ee7);
+        
+
+        circle_marker_959735adcc80319fafb8804ad28e9b5e.bindPopup(popup_a8751ebfbbea46acfcac7e9cb10711b1)
+        ;
+
+        
+    
+    
+            var circle_marker_366b63a59f37fbdd136e307cb1a09c29 = L.circleMarker(
+                [42.9585555, -71.2590681],
+                {"bubblingMouseEvents": true, "color": "#fed976ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed976ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_4a6db82e9a88939b8df088ec197dc696 = L.popup({"maxWidth": 250});
+
+        
+            var html_6da7eb862ae4519168a2cd3d5c211682 = $(`<div id="html_6da7eb862ae4519168a2cd3d5c211682" style="width: 100.0%; height: 100.0%;"><b>Chester College of New England</b><br>Year of Closure: 2012</div>`)[0];
+            popup_4a6db82e9a88939b8df088ec197dc696.setContent(html_6da7eb862ae4519168a2cd3d5c211682);
+        
+
+        circle_marker_366b63a59f37fbdd136e307cb1a09c29.bindPopup(popup_4a6db82e9a88939b8df088ec197dc696)
+        ;
+
+        
+    
+    
+            var circle_marker_352982686f484bc51d9786e0b4d5b1a2 = L.circleMarker(
+                [42.7714518, -78.6567369],
+                {"bubblingMouseEvents": true, "color": "#d00d21ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d00d21ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_6e3feb2e27e37f7730ac041d998d3837 = L.popup({"maxWidth": 250});
+
+        
+            var html_8a86c86db0518092bdef0f952aa87da8 = $(`<div id="html_8a86c86db0518092bdef0f952aa87da8" style="width: 100.0%; height: 100.0%;"><b>Christ the King Seminary</b><br>Year of Closure: 2021</div>`)[0];
+            popup_6e3feb2e27e37f7730ac041d998d3837.setContent(html_8a86c86db0518092bdef0f952aa87da8);
+        
+
+        circle_marker_352982686f484bc51d9786e0b4d5b1a2.bindPopup(popup_6e3feb2e27e37f7730ac041d998d3837)
+        ;
+
+        
+    
+    
+            var circle_marker_ac7d45b5adfc1dcc114c1a388d4963da = L.circleMarker(
+                [41.4953531, -75.6856138],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_a0e7583894d8a713fd14289854206dc9 = L.popup({"maxWidth": 250});
+
+        
+            var html_33b802b935bdcdfa95eb1ca11f5e2ee9 = $(`<div id="html_33b802b935bdcdfa95eb1ca11f5e2ee9" style="width: 100.0%; height: 100.0%;"><b>Clarks Summit University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_a0e7583894d8a713fd14289854206dc9.setContent(html_33b802b935bdcdfa95eb1ca11f5e2ee9);
+        
+
+        circle_marker_ac7d45b5adfc1dcc114c1a388d4963da.bindPopup(popup_a0e7583894d8a713fd14289854206dc9)
+        ;
+
+        
+    
+    
+            var circle_marker_fc60e7ef8af2533e707f32c8097523d7 = L.circleMarker(
+                [27.963525, -82.697928],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_44eeb831ef4b9bd8001e2064fb31bb27 = L.popup({"maxWidth": 250});
+
+        
+            var html_c93e5ffffdde6bc38e3dcf5ab7243f47 = $(`<div id="html_c93e5ffffdde6bc38e3dcf5ab7243f47" style="width: 100.0%; height: 100.0%;"><b>Clearwater Christian College</b><br>Year of Closure: 2015</div>`)[0];
+            popup_44eeb831ef4b9bd8001e2064fb31bb27.setContent(html_c93e5ffffdde6bc38e3dcf5ab7243f47);
+        
+
+        circle_marker_fc60e7ef8af2533e707f32c8097523d7.bindPopup(popup_44eeb831ef4b9bd8001e2064fb31bb27)
+        ;
+
+        
+    
+    
+            var circle_marker_cc84d355187db0ea21ab4b968a633f62 = L.circleMarker(
+                [44.171429, -78.215973],
+                {"bubblingMouseEvents": true, "color": "#ffe38bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe38bff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f78f569f17152d68a6aeda62373ef9df = L.popup({"maxWidth": 250});
+
+        
+            var html_95c158dc0e6b4a4f669a689fdd9e2b74 = $(`<div id="html_95c158dc0e6b4a4f669a689fdd9e2b74" style="width: 100.0%; height: 100.0%;"><b>Cleveland Chiropractic College</b><br>Year of Closure: 2011</div>`)[0];
+            popup_f78f569f17152d68a6aeda62373ef9df.setContent(html_95c158dc0e6b4a4f669a689fdd9e2b74);
+        
+
+        circle_marker_cc84d355187db0ea21ab4b968a633f62.bindPopup(popup_f78f569f17152d68a6aeda62373ef9df)
+        ;
+
+        
+    
+    
+            var circle_marker_8e3610aa333913b9b8a69af1c7605f1d = L.circleMarker(
+                [40.9018725, -73.7816952],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_1796b2a2f3a938beb2f6cdcee72e587e = L.popup({"maxWidth": 250});
+
+        
+            var html_aecfa18bf2de3f3329347985c566bc01 = $(`<div id="html_aecfa18bf2de3f3329347985c566bc01" style="width: 100.0%; height: 100.0%;"><b>College of New Rochelle (The)</b><br>Year of Closure: 2019</div>`)[0];
+            popup_1796b2a2f3a938beb2f6cdcee72e587e.setContent(html_aecfa18bf2de3f3329347985c566bc01);
+        
+
+        circle_marker_8e3610aa333913b9b8a69af1c7605f1d.bindPopup(popup_1796b2a2f3a938beb2f6cdcee72e587e)
+        ;
+
+        
+    
+    
+            var circle_marker_14e2d935bf7e39f582389862f4fd1892 = L.circleMarker(
+                [43.60116, -73.00084],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_d40e51e9b8b703957e710ffbb3ea2ee3 = L.popup({"maxWidth": 250});
+
+        
+            var html_e2eb142033a4367b45d086f98786fc14 = $(`<div id="html_e2eb142033a4367b45d086f98786fc14" style="width: 100.0%; height: 100.0%;"><b>College of Saint Joseph</b><br>Year of Closure: 2019</div>`)[0];
+            popup_d40e51e9b8b703957e710ffbb3ea2ee3.setContent(html_e2eb142033a4367b45d086f98786fc14);
+        
+
+        circle_marker_14e2d935bf7e39f582389862f4fd1892.bindPopup(popup_d40e51e9b8b703957e710ffbb3ea2ee3)
+        ;
+
+        
+    
+    
+            var circle_marker_9cf0729eb71cb651e216107fbb6c747c = L.circleMarker(
+                [42.6643076, -73.7866747],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_b5acf65087a05bf53faf0aed5460c2f1 = L.popup({"maxWidth": 250});
+
+        
+            var html_b396bf454c0cd492da4e01bae995b134 = $(`<div id="html_b396bf454c0cd492da4e01bae995b134" style="width: 100.0%; height: 100.0%;"><b>College of Saint Rose</b><br>Year of Closure: 2024</div>`)[0];
+            popup_b5acf65087a05bf53faf0aed5460c2f1.setContent(html_b396bf454c0cd492da4e01bae995b134);
+        
+
+        circle_marker_9cf0729eb71cb651e216107fbb6c747c.bindPopup(popup_b5acf65087a05bf53faf0aed5460c2f1)
+        ;
+
+        
+    
+    
+            var circle_marker_7ffd26036e58dec2639d12045ae66998 = L.circleMarker(
+                [44.9428842, -93.1138661],
+                {"bubblingMouseEvents": true, "color": "#fec661ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec661ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f7d8ea5a8dc6a3403d586af7c49e63d1 = L.popup({"maxWidth": 250});
+
+        
+            var html_0d2808c6f68dbc4088bf62ee74350c1a = $(`<div id="html_0d2808c6f68dbc4088bf62ee74350c1a" style="width: 100.0%; height: 100.0%;"><b>College of Visual Arts</b><br>Year of Closure: 2013</div>`)[0];
+            popup_f7d8ea5a8dc6a3403d586af7c49e63d1.setContent(html_0d2808c6f68dbc4088bf62ee74350c1a);
+        
+
+        circle_marker_7ffd26036e58dec2639d12045ae66998.bindPopup(popup_f7d8ea5a8dc6a3403d586af7c49e63d1)
+        ;
+
+        
+    
+    
+            var circle_marker_42d80fb9ee763307310d26c36fae5522 = L.circleMarker(
+                [39.6367412, -105.0255843],
+                {"bubblingMouseEvents": true, "color": "#fd6d33ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6d33ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0dd3df8002254c55c4c4e6ff853be53c = L.popup({"maxWidth": 250});
+
+        
+            var html_ee7b10d26c99862ff8886558247a2b29 = $(`<div id="html_ee7b10d26c99862ff8886558247a2b29" style="width: 100.0%; height: 100.0%;"><b>Colorado Heights University</b><br>Year of Closure: 2017</div>`)[0];
+            popup_0dd3df8002254c55c4c4e6ff853be53c.setContent(html_ee7b10d26c99862ff8886558247a2b29);
+        
+
+        circle_marker_42d80fb9ee763307310d26c36fae5522.bindPopup(popup_0dd3df8002254c55c4c4e6ff853be53c)
+        ;
+
+        
+    
+    
+            var circle_marker_e32488fbc7081df880a30174f21a7f33 = L.circleMarker(
+                [42.9617843, -85.6669769],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_b365938c62fd2968806f81f5d1d3fc94 = L.popup({"maxWidth": 250});
+
+        
+            var html_c9ddfb5cf3c7b9bc7af7aba6ce17a346 = $(`<div id="html_c9ddfb5cf3c7b9bc7af7aba6ce17a346" style="width: 100.0%; height: 100.0%;"><b>Compass College of Cinematic Arts</b><br>Year of Closure: 2023</div>`)[0];
+            popup_b365938c62fd2968806f81f5d1d3fc94.setContent(html_c9ddfb5cf3c7b9bc7af7aba6ce17a346);
+        
+
+        circle_marker_e32488fbc7081df880a30174f21a7f33.bindPopup(popup_b365938c62fd2968806f81f5d1d3fc94)
+        ;
+
+        
+    
+    
+            var circle_marker_4bc8718adef27caf5bebb62a70254dff = L.circleMarker(
+                [46.8628042, -96.7700579],
+                {"bubblingMouseEvents": true, "color": "#d00d21ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d00d21ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_6b8153acb97ddd45b4b1ff9f99fd4e7f = L.popup({"maxWidth": 250});
+
+        
+            var html_4fd56b36f5b6f94ac7ac73e13a065fea = $(`<div id="html_4fd56b36f5b6f94ac7ac73e13a065fea" style="width: 100.0%; height: 100.0%;"><b>Concordia College</b><br>Year of Closure: 2021</div>`)[0];
+            popup_6b8153acb97ddd45b4b1ff9f99fd4e7f.setContent(html_4fd56b36f5b6f94ac7ac73e13a065fea);
+        
+
+        circle_marker_4bc8718adef27caf5bebb62a70254dff.bindPopup(popup_6b8153acb97ddd45b4b1ff9f99fd4e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_2c5a9a3c11aa25009e8baaa2744eeb52 = L.circleMarker(
+                [32.425468, -87.017734],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_baa76f54ab54f508fd570d2da7446207 = L.popup({"maxWidth": 250});
+
+        
+            var html_c46416fefa03460a5eeb03da23f3f3d4 = $(`<div id="html_c46416fefa03460a5eeb03da23f3f3d4" style="width: 100.0%; height: 100.0%;"><b>Concordia College Alabama</b><br>Year of Closure: 2018</div>`)[0];
+            popup_baa76f54ab54f508fd570d2da7446207.setContent(html_c46416fefa03460a5eeb03da23f3f3d4);
+        
+
+        circle_marker_2c5a9a3c11aa25009e8baaa2744eeb52.bindPopup(popup_baa76f54ab54f508fd570d2da7446207)
+        ;
+
+        
+    
+    
+            var circle_marker_a9267c5a7cbb6209f20dee8d23b7c177 = L.circleMarker(
+                [45.4948363, -73.5779128],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_fb85b8eef514e46e8940c92984631073 = L.popup({"maxWidth": 250});
+
+        
+            var html_e93c0ef16e055a85e10eb30b60014f65 = $(`<div id="html_e93c0ef16e055a85e10eb30b60014f65" style="width: 100.0%; height: 100.0%;"><b>Concordia University</b><br>Year of Closure: 2020</div>`)[0];
+            popup_fb85b8eef514e46e8940c92984631073.setContent(html_e93c0ef16e055a85e10eb30b60014f65);
+        
+
+        circle_marker_a9267c5a7cbb6209f20dee8d23b7c177.bindPopup(popup_fb85b8eef514e46e8940c92984631073)
+        ;
+
+        
+    
+    
+            var circle_marker_ada9500fdb576d916b149fcec1a8c54e = L.circleMarker(
+                [43.997042, -92.476343],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_57a52dd984f41b777dc9fd3fe77099ec = L.popup({"maxWidth": 250});
+
+        
+            var html_67dd28808e92b2f816cb02f36431b03a = $(`<div id="html_67dd28808e92b2f816cb02f36431b03a" style="width: 100.0%; height: 100.0%;"><b>Crossroads College</b><br>Year of Closure: 2016</div>`)[0];
+            popup_57a52dd984f41b777dc9fd3fe77099ec.setContent(html_67dd28808e92b2f816cb02f36431b03a);
+        
+
+        circle_marker_ada9500fdb576d916b149fcec1a8c54e.bindPopup(popup_57a52dd984f41b777dc9fd3fe77099ec)
+        ;
+
+        
+    
+    
+            var circle_marker_1b397a3b5497ca68722e0558876ed4b0 = L.circleMarker(
+                [42.3763871, -71.1243973],
+                {"bubblingMouseEvents": true, "color": "#fd6d33ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6d33ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_9c22348c735232ea20f6a498da598dbb = L.popup({"maxWidth": 250});
+
+        
+            var html_6aa3b5c2c645fd9b2d37ac0f5d76e7ff = $(`<div id="html_6aa3b5c2c645fd9b2d37ac0f5d76e7ff" style="width: 100.0%; height: 100.0%;"><b>Episcopal Divinity School</b><br>Year of Closure: 2017</div>`)[0];
+            popup_9c22348c735232ea20f6a498da598dbb.setContent(html_6aa3b5c2c645fd9b2d37ac0f5d76e7ff);
+        
+
+        circle_marker_1b397a3b5497ca68722e0558876ed4b0.bindPopup(popup_9c22348c735232ea20f6a498da598dbb)
+        ;
+
+        
+    
+    
+            var circle_marker_2e2e9beebaa807be58f88cde52a3d2d7 = L.circleMarker(
+                [40.372754, -76.307078],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_e4cd7d17c2d7dd90e7105205f4b6387e = L.popup({"maxWidth": 250});
+
+        
+            var html_75972f889e4f87438319e7f57b18c8e3 = $(`<div id="html_75972f889e4f87438319e7f57b18c8e3" style="width: 100.0%; height: 100.0%;"><b>Evangelical Theological Seminary</b><br>Year of Closure: 2022</div>`)[0];
+            popup_e4cd7d17c2d7dd90e7105205f4b6387e.setContent(html_75972f889e4f87438319e7f57b18c8e3);
+        
+
+        circle_marker_2e2e9beebaa807be58f88cde52a3d2d7.bindPopup(popup_e4cd7d17c2d7dd90e7105205f4b6387e)
+        ;
+
+        
+    
+    
+            var circle_marker_24cdad20f96b6d8dcb02073e302c6275 = L.circleMarker(
+                [39.3038102, -76.755332],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f36d1d9c280d744402629bd9565e99a3 = L.popup({"maxWidth": 250});
+
+        
+            var html_fbfa1402379a5903959489d1271fac47 = $(`<div id="html_fbfa1402379a5903959489d1271fac47" style="width: 100.0%; height: 100.0%;"><b>Faith Theological Seminary</b><br>Year of Closure: 2020</div>`)[0];
+            popup_f36d1d9c280d744402629bd9565e99a3.setContent(html_fbfa1402379a5903959489d1271fac47);
+        
+
+        circle_marker_24cdad20f96b6d8dcb02073e302c6275.bindPopup(popup_f36d1d9c280d744402629bd9565e99a3)
+        ;
+
+        
+    
+    
+            var circle_marker_4eadd398a6d53ff80f19aff9494aed8d = L.circleMarker(
+                [47.1278922, -88.5892242],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_15611a99f30d02b5efe479952406e628 = L.popup({"maxWidth": 250});
+
+        
+            var html_56a0a3eff0d6ce639fdf33b09472b3b4 = $(`<div id="html_56a0a3eff0d6ce639fdf33b09472b3b4" style="width: 100.0%; height: 100.0%;"><b>Finlandia University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_15611a99f30d02b5efe479952406e628.setContent(html_56a0a3eff0d6ce639fdf33b09472b3b4);
+        
+
+        circle_marker_4eadd398a6d53ff80f19aff9494aed8d.bindPopup(popup_15611a99f30d02b5efe479952406e628)
+        ;
+
+        
+    
+    
+            var circle_marker_f1bedd739611a7379146b927f1488afd = L.circleMarker(
+                [37.167135, -93.3340153],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_7d03441b47e6717ebd07334511580be9 = L.popup({"maxWidth": 250});
+
+        
+            var html_8ffa39a66cee1c0a35e2a350984315ef = $(`<div id="html_8ffa39a66cee1c0a35e2a350984315ef" style="width: 100.0%; height: 100.0%;"><b>Forest Institute of Professional Psychology</b><br>Year of Closure: 2015</div>`)[0];
+            popup_7d03441b47e6717ebd07334511580be9.setContent(html_8ffa39a66cee1c0a35e2a350984315ef);
+        
+
+        circle_marker_f1bedd739611a7379146b927f1488afd.bindPopup(popup_7d03441b47e6717ebd07334511580be9)
+        ;
+
+        
+    
+    
+            var circle_marker_15cc3bb62465efe48f76aef2232d0e9f = L.circleMarker(
+                [41.4132996, -75.6553625],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f4fcf99f15edc2d240e43afbb1b9551c = L.popup({"maxWidth": 250});
+
+        
+            var html_3ed2f85af9b5c6dd971ab6a7eb9517e5 = $(`<div id="html_3ed2f85af9b5c6dd971ab6a7eb9517e5" style="width: 100.0%; height: 100.0%;"><b>Geisinger Commonwealth School of Medicine</b><br>Year of Closure: 2024</div>`)[0];
+            popup_f4fcf99f15edc2d240e43afbb1b9551c.setContent(html_3ed2f85af9b5c6dd971ab6a7eb9517e5);
+        
+
+        circle_marker_15cc3bb62465efe48f76aef2232d0e9f.bindPopup(popup_f4fcf99f15edc2d240e43afbb1b9551c)
+        ;
+
+        
+    
+    
+            var circle_marker_a33e405cc0cf0b6391750644279d1063 = L.circleMarker(
+                [44.2789862, -72.4381007],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_6a658632a88d2590a0091eda0ce3f7a6 = L.popup({"maxWidth": 250});
+
+        
+            var html_a35d99a5972e301184443b316bf2a514 = $(`<div id="html_a35d99a5972e301184443b316bf2a514" style="width: 100.0%; height: 100.0%;"><b>Goddard College</b><br>Year of Closure: 2024</div>`)[0];
+            popup_6a658632a88d2590a0091eda0ce3f7a6.setContent(html_a35d99a5972e301184443b316bf2a514);
+        
+
+        circle_marker_a33e405cc0cf0b6391750644279d1063.bindPopup(popup_6a658632a88d2590a0091eda0ce3f7a6)
+        ;
+
+        
+    
+    
+            var circle_marker_b72d24c8354e57f8fa8fdb122ae50afe = L.circleMarker(
+                [41.256538, -95.934502],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_fc8d060569387a61f12e65cea7198c33 = L.popup({"maxWidth": 250});
+
+        
+            var html_baf68a8e77dcfa162c648f00c5c644d4 = $(`<div id="html_baf68a8e77dcfa162c648f00c5c644d4" style="width: 100.0%; height: 100.0%;"><b>Grace University</b><br>Year of Closure: 2018</div>`)[0];
+            popup_fc8d060569387a61f12e65cea7198c33.setContent(html_baf68a8e77dcfa162c648f00c5c644d4);
+        
+
+        circle_marker_b72d24c8354e57f8fa8fdb122ae50afe.bindPopup(popup_fc8d060569387a61f12e65cea7198c33)
+        ;
+
+        
+    
+    
+            var circle_marker_730ca34a1afaec13d8c6f9040b90a75a = L.circleMarker(
+                [43.51696, -73.232758],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_37761af2cafa9e1aca4a1936243a7d88 = L.popup({"maxWidth": 250});
+
+        
+            var html_122c2b8e232fd627e0454449c1772f38 = $(`<div id="html_122c2b8e232fd627e0454449c1772f38" style="width: 100.0%; height: 100.0%;"><b>Green Mountain College</b><br>Year of Closure: 2019</div>`)[0];
+            popup_37761af2cafa9e1aca4a1936243a7d88.setContent(html_122c2b8e232fd627e0454449c1772f38);
+        
+
+        circle_marker_730ca34a1afaec13d8c6f9040b90a75a.bindPopup(popup_37761af2cafa9e1aca4a1936243a7d88)
+        ;
+
+        
+    
+    
+            var circle_marker_aaccfc051831b2d4a7e86aab2d27e1ad = L.circleMarker(
+                [35.519821, -84.36351],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_5ae187f7f7d31dccf647e51408b44b90 = L.popup({"maxWidth": 250});
+
+        
+            var html_2ee67c8df5d259ef8a3bce0a84574c81 = $(`<div id="html_2ee67c8df5d259ef8a3bce0a84574c81" style="width: 100.0%; height: 100.0%;"><b>Hiwassee College</b><br>Year of Closure: 2019</div>`)[0];
+            popup_5ae187f7f7d31dccf647e51408b44b90.setContent(html_2ee67c8df5d259ef8a3bce0a84574c81);
+        
+
+        circle_marker_aaccfc051831b2d4a7e86aab2d27e1ad.bindPopup(popup_5ae187f7f7d31dccf647e51408b44b90)
+        ;
+
+        
+    
+    
+            var circle_marker_6d9295aa8e500c9cd93a43e085d340b2 = L.circleMarker(
+                [37.8029258, -122.186977],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_12a39040425a346cfb738d4954578b16 = L.popup({"maxWidth": 250});
+
+        
+            var html_c26cb3de5bca18b2a6845b6c31c81c58 = $(`<div id="html_c26cb3de5bca18b2a6845b6c31c81c58" style="width: 100.0%; height: 100.0%;"><b>Holy Names University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_12a39040425a346cfb738d4954578b16.setContent(html_c26cb3de5bca18b2a6845b6c31c81c58);
+        
+
+        circle_marker_6d9295aa8e500c9cd93a43e085d340b2.bindPopup(popup_12a39040425a346cfb738d4954578b16)
+        ;
+
+        
+    
+    
+            var circle_marker_2c9ef8c8aa2e1b42ca206155a2509f83 = L.circleMarker(
+                [40.965599, -91.55484],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_7e7ef10d4336b0910671da5149bdbcaa = L.popup({"maxWidth": 250});
+
+        
+            var html_4956b7ac95036ed384b2e1a2179cddba = $(`<div id="html_4956b7ac95036ed384b2e1a2179cddba" style="width: 100.0%; height: 100.0%;"><b>Iowa Wesleyan University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_7e7ef10d4336b0910671da5149bdbcaa.setContent(html_4956b7ac95036ed384b2e1a2179cddba);
+        
+
+        circle_marker_2c9ef8c8aa2e1b42ca206155a2509f83.bindPopup(popup_7e7ef10d4336b0910671da5149bdbcaa)
+        ;
+
+        
+    
+    
+            var circle_marker_3555c1aaacdc57d0d410ecbef561a29f = L.circleMarker(
+                [35.9942846, -79.9983973],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_494a6702591e27f8357bd2fe36c1bc2b = L.popup({"maxWidth": 250});
+
+        
+            var html_ee18c9ef12787e999ce31a1075f58e15 = $(`<div id="html_ee18c9ef12787e999ce31a1075f58e15" style="width: 100.0%; height: 100.0%;"><b>John Wesley University</b><br>Year of Closure: 2018</div>`)[0];
+            popup_494a6702591e27f8357bd2fe36c1bc2b.setContent(html_ee18c9ef12787e999ce31a1075f58e15);
+        
+
+        circle_marker_3555c1aaacdc57d0d410ecbef561a29f.bindPopup(popup_494a6702591e27f8357bd2fe36c1bc2b)
+        ;
+
+        
+    
+    
+            var circle_marker_a7e85a44a33c046a2ecadcf73ea17836 = L.circleMarker(
+                [42.0604768, -88.2898513],
+                {"bubblingMouseEvents": true, "color": "#d00d21ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d00d21ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_9169f92ca0c71717c2be0986b55cce07 = L.popup({"maxWidth": 250});
+
+        
+            var html_984f9858709116c194511431b7344127 = $(`<div id="html_984f9858709116c194511431b7344127" style="width: 100.0%; height: 100.0%;"><b>Judson College</b><br>Year of Closure: 2021</div>`)[0];
+            popup_9169f92ca0c71717c2be0986b55cce07.setContent(html_984f9858709116c194511431b7344127);
+        
+
+        circle_marker_a7e85a44a33c046a2ecadcf73ea17836.bindPopup(popup_9169f92ca0c71717c2be0986b55cce07)
+        ;
+
+        
+    
+    
+            var circle_marker_bf58136772257f5f32d864bed6dc9989 = L.circleMarker(
+                [35.623721, -88.8298992],
+                {"bubblingMouseEvents": true, "color": "#ffe38bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe38bff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_ef0f278ae862a6094b8eb872772933cf = L.popup({"maxWidth": 250});
+
+        
+            var html_9373c03154cfb5e020021dc117494947 = $(`<div id="html_9373c03154cfb5e020021dc117494947" style="width: 100.0%; height: 100.0%;"><b>Lambuth University</b><br>Year of Closure: 2011</div>`)[0];
+            popup_ef0f278ae862a6094b8eb872772933cf.setContent(html_9373c03154cfb5e020021dc117494947);
+        
+
+        circle_marker_bf58136772257f5f32d864bed6dc9989.bindPopup(popup_ef0f278ae862a6094b8eb872772933cf)
+        ;
+
+        
+    
+    
+            var circle_marker_d666d24bcf1733d09dc39da2d0d95e2a = L.circleMarker(
+                [41.8773024, -87.6497097],
+                {"bubblingMouseEvents": true, "color": "#feb24cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb24cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_cad9aeccfea97f9f8aff74527325d1e5 = L.popup({"maxWidth": 250});
+
+        
+            var html_5daf67c5435335e71271bcf7f3feb649 = $(`<div id="html_5daf67c5435335e71271bcf7f3feb649" style="width: 100.0%; height: 100.0%;"><b>Lexington College</b><br>Year of Closure: 2014</div>`)[0];
+            popup_cad9aeccfea97f9f8aff74527325d1e5.setContent(html_5daf67c5435335e71271bcf7f3feb649);
+        
+
+        circle_marker_d666d24bcf1733d09dc39da2d0d95e2a.bindPopup(popup_cad9aeccfea97f9f8aff74527325d1e5)
+        ;
+
+        
+    
+    
+            var circle_marker_1309df9ce7e0eaa8538ef925eaad42c5 = L.circleMarker(
+                [40.1489112, -89.3461545],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_570fd3a42b9dd56765c9d8783f6f1265 = L.popup({"maxWidth": 250});
+
+        
+            var html_53967183e6a37c7afc317a21e993ed7a = $(`<div id="html_53967183e6a37c7afc317a21e993ed7a" style="width: 100.0%; height: 100.0%;"><b>Lincoln Christian University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_570fd3a42b9dd56765c9d8783f6f1265.setContent(html_53967183e6a37c7afc317a21e993ed7a);
+        
+
+        circle_marker_1309df9ce7e0eaa8538ef925eaad42c5.bindPopup(popup_570fd3a42b9dd56765c9d8783f6f1265)
+        ;
+
+        
+    
+    
+            var circle_marker_e5b2a39f3637486bfeb5ee4f7a5b7242 = L.circleMarker(
+                [53.2310061, -0.5324214],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_fcf0427771b440f92629f0e8b59fa090 = L.popup({"maxWidth": 250});
+
+        
+            var html_10a28bbae9e6726ac69aa14cdcb55b3d = $(`<div id="html_10a28bbae9e6726ac69aa14cdcb55b3d" style="width: 100.0%; height: 100.0%;"><b>Lincoln College</b><br>Year of Closure: 2022</div>`)[0];
+            popup_fcf0427771b440f92629f0e8b59fa090.setContent(html_10a28bbae9e6726ac69aa14cdcb55b3d);
+        
+
+        circle_marker_e5b2a39f3637486bfeb5ee4f7a5b7242.bindPopup(popup_fcf0427771b440f92629f0e8b59fa090)
+        ;
+
+        
+    
+    
+            var circle_marker_506c5000e97f3dd0d8a63891bdfac2fd = L.circleMarker(
+                [38.7857311, -90.5022054],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_3ef33fe9b15deaf9bc7ab7449d3044f3 = L.popup({"maxWidth": 250});
+
+        
+            var html_893075d044b303f1cb5154ad5e302078 = $(`<div id="html_893075d044b303f1cb5154ad5e302078" style="width: 100.0%; height: 100.0%;"><b>Lindenwood University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_3ef33fe9b15deaf9bc7ab7449d3044f3.setContent(html_893075d044b303f1cb5154ad5e302078);
+        
+
+        circle_marker_506c5000e97f3dd0d8a63891bdfac2fd.bindPopup(popup_3ef33fe9b15deaf9bc7ab7449d3044f3)
+        ;
+
+        
+    
+    
+            var circle_marker_e7109f06b622448288a58f7c97ec5db4 = L.circleMarker(
+                [39.7302932, -90.2213897],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_1069742aadd158f9921c4318580142c1 = L.popup({"maxWidth": 250});
+
+        
+            var html_6cba870678a57246a25c0024afa11f04 = $(`<div id="html_6cba870678a57246a25c0024afa11f04" style="width: 100.0%; height: 100.0%;"><b>MacMurray College</b><br>Year of Closure: 2020</div>`)[0];
+            popup_1069742aadd158f9921c4318580142c1.setContent(html_6cba870678a57246a25c0024afa11f04);
+        
+
+        circle_marker_e7109f06b622448288a58f7c97ec5db4.bindPopup(popup_1069742aadd158f9921c4318580142c1)
+        ;
+
+        
+    
+    
+            var circle_marker_cee646dff42e9e9bf352fa02718ab1c7 = L.circleMarker(
+                [51.7522849, -1.2470927],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_da7e04f0a5b0e28528b82719b516e21f = L.popup({"maxWidth": 250});
+
+        
+            var html_7c55c7478771d44f895a1248310726f5 = $(`<div id="html_7c55c7478771d44f895a1248310726f5" style="width: 100.0%; height: 100.0%;"><b>Magdalen College</b><br>Year of Closure: 2024</div>`)[0];
+            popup_da7e04f0a5b0e28528b82719b516e21f.setContent(html_7c55c7478771d44f895a1248310726f5);
+        
+
+        circle_marker_cee646dff42e9e9bf352fa02718ab1c7.bindPopup(popup_da7e04f0a5b0e28528b82719b516e21f)
+        ;
+
+        
+    
+    
+            var circle_marker_f8bd7601c01cf65dd3d6315ddc1552a7 = L.circleMarker(
+                [33.0469054, -89.5832572],
+                {"bubblingMouseEvents": true, "color": "#fff6b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff6b6ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_b3c17ba2da4828c34ef5a568a640bb8c = L.popup({"maxWidth": 250});
+
+        
+            var html_ffb3a8af1cb6ffb072b7a252a11e4930 = $(`<div id="html_ffb3a8af1cb6ffb072b7a252a11e4930" style="width: 100.0%; height: 100.0%;"><b>Magnolia Bible College</b><br>Year of Closure: 2009</div>`)[0];
+            popup_b3c17ba2da4828c34ef5a568a640bb8c.setContent(html_ffb3a8af1cb6ffb072b7a252a11e4930);
+        
+
+        circle_marker_f8bd7601c01cf65dd3d6315ddc1552a7.bindPopup(popup_b3c17ba2da4828c34ef5a568a640bb8c)
+        ;
+
+        
+    
+    
+            var circle_marker_49cf976444a15e7ac090d50057e98386 = L.circleMarker(
+                [42.4653094, -70.8893493],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_75d7dde3802a8264e2276d7dfec6cd7d = L.popup({"maxWidth": 250});
+
+        
+            var html_70d897a89a5f423ddc6b0b052e06b5fb = $(`<div id="html_70d897a89a5f423ddc6b0b052e06b5fb" style="width: 100.0%; height: 100.0%;"><b>Marian Court College</b><br>Year of Closure: 2015</div>`)[0];
+            popup_75d7dde3802a8264e2276d7dfec6cd7d.setContent(html_70d897a89a5f423ddc6b0b052e06b5fb);
+        
+
+        circle_marker_49cf976444a15e7ac090d50057e98386.bindPopup(popup_75d7dde3802a8264e2276d7dfec6cd7d)
+        ;
+
+        
+    
+    
+            var circle_marker_fa51d8bdb55b4f17ddfbeb28f5dff903 = L.circleMarker(
+                [42.8390545, -72.7347545],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_113ae47d3cefcd526d84d1e86ce23101 = L.popup({"maxWidth": 250});
+
+        
+            var html_f9178cce91f3fb82965fd3c46dcf7b08 = $(`<div id="html_f9178cce91f3fb82965fd3c46dcf7b08" style="width: 100.0%; height: 100.0%;"><b>Marlboro College</b><br>Year of Closure: 2020</div>`)[0];
+            popup_113ae47d3cefcd526d84d1e86ce23101.setContent(html_f9178cce91f3fb82965fd3c46dcf7b08);
+        
+
+        circle_marker_fa51d8bdb55b4f17ddfbeb28f5dff903.bindPopup(popup_113ae47d3cefcd526d84d1e86ce23101)
+        ;
+
+        
+    
+    
+            var circle_marker_06858944dd827ae232419264692fb597 = L.circleMarker(
+                [42.9286346, -78.8558502],
+                {"bubblingMouseEvents": true, "color": "#9f0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_8b779c8494e5ebfe182fda30c7d710b3 = L.popup({"maxWidth": 250});
+
+        
+            var html_79ab8530a7a73e4cedc03d2bfcea6b1c = $(`<div id="html_79ab8530a7a73e4cedc03d2bfcea6b1c" style="width: 100.0%; height: 100.0%;"><b>Medaille University</b><br>Year of Closure: 2023</div>`)[0];
+            popup_8b779c8494e5ebfe182fda30c7d710b3.setContent(html_79ab8530a7a73e4cedc03d2bfcea6b1c);
+        
+
+        circle_marker_06858944dd827ae232419264692fb597.bindPopup(popup_8b779c8494e5ebfe182fda30c7d710b3)
+        ;
+
+        
+    
+    
+            var circle_marker_8f1ab125dfb2fad8996d7ea94ec6f6ad = L.circleMarker(
+                [37.7805988, -122.1825631],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_23c3cf82d779b045951a80d13a381c2c = L.popup({"maxWidth": 250});
+
+        
+            var html_8b372e7b57426c74b9076a98eebf3f1a = $(`<div id="html_8b372e7b57426c74b9076a98eebf3f1a" style="width: 100.0%; height: 100.0%;"><b>Mills College</b><br>Year of Closure: 2022</div>`)[0];
+            popup_23c3cf82d779b045951a80d13a381c2c.setContent(html_8b372e7b57426c74b9076a98eebf3f1a);
+        
+
+        circle_marker_8f1ab125dfb2fad8996d7ea94ec6f6ad.bindPopup(popup_23c3cf82d779b045951a80d13a381c2c)
+        ;
+
+        
+    
+    
+            var circle_marker_59a93bb791665b37a3810e15062b3e07 = L.circleMarker(
+                [37.8978292, -88.926282],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_47a3f973e4fe6cf309dc172b98c5f44b = L.popup({"maxWidth": 250});
+
+        
+            var html_2bf155e1a6157d7c895f3b2d4fa8c711 = $(`<div id="html_2bf155e1a6157d7c895f3b2d4fa8c711" style="width: 100.0%; height: 100.0%;"><b>Morthland College</b><br>Year of Closure: 2018</div>`)[0];
+            popup_47a3f973e4fe6cf309dc172b98c5f44b.setContent(html_2bf155e1a6157d7c895f3b2d4fa8c711);
+        
+
+        circle_marker_59a93bb791665b37a3810e15062b3e07.bindPopup(popup_47a3f973e4fe6cf309dc172b98c5f44b)
+        ;
+
+        
+    
+    
+            var circle_marker_d938fefa0a7562af1e0cfe79c1d96b39 = L.circleMarker(
+                [37.7758953, -81.1837045],
+                {"bubblingMouseEvents": true, "color": "#fed976ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed976ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_039c0aff61d05d50e67ecfe37cf0622a = L.popup({"maxWidth": 250});
+
+        
+            var html_e183fe8bd2188633f24b9a9011d0d909 = $(`<div id="html_e183fe8bd2188633f24b9a9011d0d909" style="width: 100.0%; height: 100.0%;"><b>Mountain State University</b><br>Year of Closure: 2012</div>`)[0];
+            popup_039c0aff61d05d50e67ecfe37cf0622a.setContent(html_e183fe8bd2188633f24b9a9011d0d909);
+        
+
+        circle_marker_d938fefa0a7562af1e0cfe79c1d96b39.bindPopup(popup_039c0aff61d05d50e67ecfe37cf0622a)
+        ;
+
+        
+    
+    
+            var circle_marker_cfbced70e33ecda2c41c93e171c71f3e = L.circleMarker(
+                [45.5269038, -122.5765119],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_c5c3fdfaf79b4736ff4e4aebc33b1a2b = L.popup({"maxWidth": 250});
+
+        
+            var html_49c43b629b83a92e424b9a272dd2aa6c = $(`<div id="html_49c43b629b83a92e424b9a272dd2aa6c" style="width: 100.0%; height: 100.0%;"><b>Multnomah University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_c5c3fdfaf79b4736ff4e4aebc33b1a2b.setContent(html_49c43b629b83a92e424b9a272dd2aa6c);
+        
+
+        circle_marker_cfbced70e33ecda2c41c93e171c71f3e.bindPopup(popup_c5c3fdfaf79b4736ff4e4aebc33b1a2b)
+        ;
+
+        
+    
+    
+            var circle_marker_11fdebe7835f49fb45871c6453ac66c4 = L.circleMarker(
+                [39.0221166, -76.9804176],
+                {"bubblingMouseEvents": true, "color": "#feb24cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb24cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_71a64aa57cfcc30593b4a959d553da49 = L.popup({"maxWidth": 250});
+
+        
+            var html_6233d8bc9dcded1f8d4ccb63ab25a93c = $(`<div id="html_6233d8bc9dcded1f8d4ccb63ab25a93c" style="width: 100.0%; height: 100.0%;"><b>National Labor College</b><br>Year of Closure: 2014</div>`)[0];
+            popup_71a64aa57cfcc30593b4a959d553da49.setContent(html_6233d8bc9dcded1f8d4ccb63ab25a93c);
+        
+
+        circle_marker_11fdebe7835f49fb45871c6453ac66c4.bindPopup(popup_71a64aa57cfcc30593b4a959d553da49)
+        ;
+
+        
+    
+    
+            var circle_marker_88ae3b18bc076d1840723f0dcdb938c6 = L.circleMarker(
+                [51.3825151, -1.3230229],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f5d698507dbf89098882110f4f51225a = L.popup({"maxWidth": 250});
+
+        
+            var html_6143866a13beb956caccf4815506ce4f = $(`<div id="html_6143866a13beb956caccf4815506ce4f" style="width: 100.0%; height: 100.0%;"><b>Newbury College</b><br>Year of Closure: 2019</div>`)[0];
+            popup_f5d698507dbf89098882110f4f51225a.setContent(html_6143866a13beb956caccf4815506ce4f);
+        
+
+        circle_marker_88ae3b18bc076d1840723f0dcdb938c6.bindPopup(popup_f5d698507dbf89098882110f4f51225a)
+        ;
+
+        
+    
+    
+            var circle_marker_ce0dbb6a085440c274acc9163e8a7952 = L.circleMarker(
+                [45.767029, -88.276482],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_71a01375bd289d064827dd425ee07f35 = L.popup({"maxWidth": 250});
+
+        
+            var html_e25b00ce02a068e61059b6305ec261d4 = $(`<div id="html_e25b00ce02a068e61059b6305ec261d4" style="width: 100.0%; height: 100.0%;"><b>Northland International University</b><br>Year of Closure: 2015</div>`)[0];
+            popup_71a01375bd289d064827dd425ee07f35.setContent(html_e25b00ce02a068e61059b6305ec261d4);
+        
+
+        circle_marker_ce0dbb6a085440c274acc9163e8a7952.bindPopup(popup_71a01375bd289d064827dd425ee07f35)
+        ;
+
+        
+    
+    
+            var circle_marker_1f591405696e1d14f75fb0c147785693 = L.circleMarker(
+                [47.643089, -122.527397],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_90af9a815e98fc61323388da105bb3bf = L.popup({"maxWidth": 250});
+
+        
+            var html_41145420691eb43b0d6549690042a6b0 = $(`<div id="html_41145420691eb43b0d6549690042a6b0" style="width: 100.0%; height: 100.0%;"><b>Northwest Institute of Literary Arts</b><br>Year of Closure: 2016</div>`)[0];
+            popup_90af9a815e98fc61323388da105bb3bf.setContent(html_41145420691eb43b0d6549690042a6b0);
+        
+
+        circle_marker_1f591405696e1d14f75fb0c147785693.bindPopup(popup_90af9a815e98fc61323388da105bb3bf)
+        ;
+
+        
+    
+    
+            var circle_marker_76cf034c9d7f16571053e1416362fbfe = L.circleMarker(
+                [41.5074591, -81.5164707],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_d8dbfd1b6de4a1545f4aaef98048a61b = L.popup({"maxWidth": 250});
+
+        
+            var html_09c7ac9e3473fb2d8959eace02f4cac9 = $(`<div id="html_09c7ac9e3473fb2d8959eace02f4cac9" style="width: 100.0%; height: 100.0%;"><b>Notre Dame College of Ohio</b><br>Year of Closure: 2024</div>`)[0];
+            popup_d8dbfd1b6de4a1545f4aaef98048a61b.setContent(html_09c7ac9e3473fb2d8959eace02f4cac9);
+        
+
+        circle_marker_76cf034c9d7f16571053e1416362fbfe.bindPopup(popup_d8dbfd1b6de4a1545f4aaef98048a61b)
+        ;
+
+        
+    
+    
+            var circle_marker_b6dc3109b46393ca77b6c517215870b6 = L.circleMarker(
+                [41.832951, -87.928673],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_e08c4b5ed12ba3e939bfc02730288d21 = L.popup({"maxWidth": 250});
+
+        
+            var html_3b5d9e028a3cd02e152ad29442e5e3d9 = $(`<div id="html_3b5d9e028a3cd02e152ad29442e5e3d9" style="width: 100.0%; height: 100.0%;"><b>Oak Point University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_e08c4b5ed12ba3e939bfc02730288d21.setContent(html_3b5d9e028a3cd02e152ad29442e5e3d9);
+        
+
+        circle_marker_b6dc3109b46393ca77b6c517215870b6.bindPopup(popup_e08c4b5ed12ba3e939bfc02730288d21)
+        ;
+
+        
+    
+    
+            var circle_marker_3cffdf08a62dbc5d89182490d4e1c00f = L.circleMarker(
+                [39.2895004, -84.4454854],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_67778eb86ca2a56f1527228095890c63 = L.popup({"maxWidth": 250});
+
+        
+            var html_f81772347524a65e81f197a521fd5d47 = $(`<div id="html_f81772347524a65e81f197a521fd5d47" style="width: 100.0%; height: 100.0%;"><b>Ohio Mid-Western College</b><br>Year of Closure: 2015</div>`)[0];
+            popup_67778eb86ca2a56f1527228095890c63.setContent(html_f81772347524a65e81f197a521fd5d47);
+        
+
+        circle_marker_3cffdf08a62dbc5d89182490d4e1c00f.bindPopup(popup_67778eb86ca2a56f1527228095890c63)
+        ;
+
+        
+    
+    
+            var circle_marker_48309b2693029aa5145798d86dde45cf = L.circleMarker(
+                [39.328812, -81.549011],
+                {"bubblingMouseEvents": true, "color": "#d00d21ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d00d21ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_653228a9353e08ca2a8ebd1a884e33f0 = L.popup({"maxWidth": 250});
+
+        
+            var html_a6c775c0d3798b86e9b74805f148b8b3 = $(`<div id="html_a6c775c0d3798b86e9b74805f148b8b3" style="width: 100.0%; height: 100.0%;"><b>Ohio Valley University</b><br>Year of Closure: 2021</div>`)[0];
+            popup_653228a9353e08ca2a8ebd1a884e33f0.setContent(html_a6c775c0d3798b86e9b74805f148b8b3);
+        
+
+        circle_marker_48309b2693029aa5145798d86dde45cf.bindPopup(popup_653228a9353e08ca2a8ebd1a884e33f0)
+        ;
+
+        
+    
+    
+            var circle_marker_09437ef8f557fe41278ae6c0f0b88391 = L.circleMarker(
+                [41.1545553, -87.8712192],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_e8f5dcf9cb480094aa6339984c3bc1e3 = L.popup({"maxWidth": 250});
+
+        
+            var html_78d57402c1064912715bbfdcabcec6e7 = $(`<div id="html_78d57402c1064912715bbfdcabcec6e7" style="width: 100.0%; height: 100.0%;"><b>Olivet Nazarene University</b><br>Year of Closure: 2018</div>`)[0];
+            popup_e8f5dcf9cb480094aa6339984c3bc1e3.setContent(html_78d57402c1064912715bbfdcabcec6e7);
+        
+
+        circle_marker_09437ef8f557fe41278ae6c0f0b88391.bindPopup(popup_e8f5dcf9cb480094aa6339984c3bc1e3)
+        ;
+
+        
+    
+    
+            var circle_marker_cfd1da4c93122aec752b6170cdff2af3 = L.circleMarker(
+                [35.9202864, -86.8682987],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_5978d4901a17d5b1cc6da223f997cc00 = L.popup({"maxWidth": 250});
+
+        
+            var html_3f2bfae776985e209926bc028ab43e40 = $(`<div id="html_3f2bfae776985e209926bc028ab43e40" style="width: 100.0%; height: 100.0%;"><b>O'More College of Design</b><br>Year of Closure: 2018</div>`)[0];
+            popup_5978d4901a17d5b1cc6da223f997cc00.setContent(html_3f2bfae776985e209926bc028ab43e40);
+        
+
+        circle_marker_cfd1da4c93122aec752b6170cdff2af3.bindPopup(popup_5978d4901a17d5b1cc6da223f997cc00)
+        ;
+
+        
+    
+    
+            var circle_marker_3dadb83f1112ec840f29ec7be7f930b4 = L.circleMarker(
+                [45.5112094, -122.761857],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_1b46727830b6ef288b16a51ee238276a = L.popup({"maxWidth": 250});
+
+        
+            var html_7795c5fdfb75802aa4294b40b9f3d87f = $(`<div id="html_7795c5fdfb75802aa4294b40b9f3d87f" style="width: 100.0%; height: 100.0%;"><b>Oregon College of Art & Craft</b><br>Year of Closure: 2019</div>`)[0];
+            popup_1b46727830b6ef288b16a51ee238276a.setContent(html_7795c5fdfb75802aa4294b40b9f3d87f);
+        
+
+        circle_marker_3dadb83f1112ec840f29ec7be7f930b4.bindPopup(popup_1b46727830b6ef288b16a51ee238276a)
+        ;
+
+        
+    
+    
+            var circle_marker_748df5ab00e5281cd8f1e594a9a5e09b = L.circleMarker(
+                [34.2421623, -118.5674204],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_c4c8d807fabd2e557f50957ea29ee44a = L.popup({"maxWidth": 250});
+
+        
+            var html_4a9a8fe7a5a7907f022d50977d2f76f0 = $(`<div id="html_4a9a8fe7a5a7907f022d50977d2f76f0" style="width: 100.0%; height: 100.0%;"><b>Phillips Graduate University</b><br>Year of Closure: 2019</div>`)[0];
+            popup_c4c8d807fabd2e557f50957ea29ee44a.setContent(html_4a9a8fe7a5a7907f022d50977d2f76f0);
+        
+
+        circle_marker_748df5ab00e5281cd8f1e594a9a5e09b.bindPopup(popup_c4c8d807fabd2e557f50957ea29ee44a)
+        ;
+
+        
+    
+    
+            var circle_marker_f3e378d7963629d47187f066dc6f2f83 = L.circleMarker(
+                [44.084808, -93.225487],
+                {"bubblingMouseEvents": true, "color": "#ffffccff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_94e9c21f93c09a918321f4b7a1af9a9f = L.popup({"maxWidth": 250});
+
+        
+            var html_c1c6cf2b858a676f90da1f0acea00c46 = $(`<div id="html_c1c6cf2b858a676f90da1f0acea00c46" style="width: 100.0%; height: 100.0%;"><b>Pillsbury Baptist Bible College</b><br>Year of Closure: 2008</div>`)[0];
+            popup_94e9c21f93c09a918321f4b7a1af9a9f.setContent(html_c1c6cf2b858a676f90da1f0acea00c46);
+        
+
+        circle_marker_f3e378d7963629d47187f066dc6f2f83.bindPopup(popup_94e9c21f93c09a918321f4b7a1af9a9f)
+        ;
+
+        
+    
+    
+            var circle_marker_4c2d6dd133eb71dcbb4ca5f86adf15d5 = L.circleMarker(
+                [42.3207628, -71.1565951],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_8b54f082e39aa356b6644e81f431a756 = L.popup({"maxWidth": 250});
+
+        
+            var html_7c08e92232e73242c49a679200e2a533 = $(`<div id="html_7c08e92232e73242c49a679200e2a533" style="width: 100.0%; height: 100.0%;"><b>Pine Manor College</b><br>Year of Closure: 2022</div>`)[0];
+            popup_8b54f082e39aa356b6644e81f431a756.setContent(html_7c08e92232e73242c49a679200e2a533);
+        
+
+        circle_marker_4c2d6dd133eb71dcbb4ca5f86adf15d5.bindPopup(popup_8b54f082e39aa356b6644e81f431a756)
+        ;
+
+        
+    
+    
+            var circle_marker_711c376e7bae6a19ff807136a516c790 = L.circleMarker(
+                [40.4247652, -80.1892232],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_5e8e609087691734c76d2b8fac9313d2 = L.popup({"maxWidth": 250});
+
+        
+            var html_a41ce876729be12dbd67c8eedd178493 = $(`<div id="html_a41ce876729be12dbd67c8eedd178493" style="width: 100.0%; height: 100.0%;"><b>Pittsburgh Technical College</b><br>Year of Closure: 2024</div>`)[0];
+            popup_5e8e609087691734c76d2b8fac9313d2.setContent(html_a41ce876729be12dbd67c8eedd178493);
+        
+
+        circle_marker_711c376e7bae6a19ff807136a516c790.bindPopup(popup_5e8e609087691734c76d2b8fac9313d2)
+        ;
+
+        
+    
+    
+            var circle_marker_a259c8c35ffb35fb4bc1b032e65314c9 = L.circleMarker(
+                [40.706822, -73.960541],
+                {"bubblingMouseEvents": true, "color": "#fff6b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff6b6ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_3199e166fe8a8f592c457bbee33ab189 = L.popup({"maxWidth": 250});
+
+        
+            var html_2fe201a82a450b3b4a7153d37ebe366a = $(`<div id="html_2fe201a82a450b3b4a7153d37ebe366a" style="width: 100.0%; height: 100.0%;"><b>Rabbinical Seminary Of Adas Yereim</b><br>Year of Closure: 2009</div>`)[0];
+            popup_3199e166fe8a8f592c457bbee33ab189.setContent(html_2fe201a82a450b3b4a7153d37ebe366a);
+        
+
+        circle_marker_a259c8c35ffb35fb4bc1b032e65314c9.bindPopup(popup_3199e166fe8a8f592c457bbee33ab189)
+        ;
+
+        
+    
+    
+            var circle_marker_c5ec928380df879409a03e246dbb642c = L.circleMarker(
+                [35.0714053, -89.989726],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_a977977b4cfe194616d71826b1e338eb = L.popup({"maxWidth": 250});
+
+        
+            var html_bef2800d4299b78b652800e2bf3dd10b = $(`<div id="html_bef2800d4299b78b652800e2bf3dd10b" style="width: 100.0%; height: 100.0%;"><b>Remington College</b><br>Year of Closure: 2024</div>`)[0];
+            popup_a977977b4cfe194616d71826b1e338eb.setContent(html_bef2800d4299b78b652800e2bf3dd10b);
+        
+
+        circle_marker_c5ec928380df879409a03e246dbb642c.bindPopup(popup_a977977b4cfe194616d71826b1e338eb)
+        ;
+
+        
+    
+    
+            var circle_marker_dac7661bfb85707797e25cf426441787 = L.circleMarker(
+                [42.3331945, -85.1788879],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_83b87e339e2d826c629771f05e3b16a5 = L.popup({"maxWidth": 250});
+
+        
+            var html_fb72fba4976039b40537563e4d81ec93 = $(`<div id="html_fb72fba4976039b40537563e4d81ec93" style="width: 100.0%; height: 100.0%;"><b>Robert B. Miller College (The)</b><br>Year of Closure: 2016</div>`)[0];
+            popup_83b87e339e2d826c629771f05e3b16a5.setContent(html_fb72fba4976039b40537563e4d81ec93);
+        
+
+        circle_marker_dac7661bfb85707797e25cf426441787.bindPopup(popup_83b87e339e2d826c629771f05e3b16a5)
+        ;
+
+        
+    
+    
+            var circle_marker_a9cdaa96b92a016c2f625c92a8004eef = L.circleMarker(
+                [43.8263596, -70.4833458],
+                {"bubblingMouseEvents": true, "color": "#fd6d33ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6d33ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_9ed81f6e1672e2c419ddb2e440166167 = L.popup({"maxWidth": 250});
+
+        
+            var html_9057a680e19a1fe01571b2f5e4544a96 = $(`<div id="html_9057a680e19a1fe01571b2f5e4544a96" style="width: 100.0%; height: 100.0%;"><b>Saint Joseph's College</b><br>Year of Closure: 2017</div>`)[0];
+            popup_9ed81f6e1672e2c419ddb2e440166167.setContent(html_9057a680e19a1fe01571b2f5e4544a96);
+        
+
+        circle_marker_a9cdaa96b92a016c2f625c92a8004eef.bindPopup(popup_9ed81f6e1672e2c419ddb2e440166167)
+        ;
+
+        
+    
+    
+            var circle_marker_812fad3d4b30b4fcdbe0547a61a5d331 = L.circleMarker(
+                [38.7754616, -90.2955404],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_1681e49dbe7df7e8c8c8e5ee4e6fd4d9 = L.popup({"maxWidth": 250});
+
+        
+            var html_1ea531e0b38584b9e5dd9df96f21aa0c = $(`<div id="html_1ea531e0b38584b9e5dd9df96f21aa0c" style="width: 100.0%; height: 100.0%;"><b>Saint Louis Christian College</b><br>Year of Closure: 2022</div>`)[0];
+            popup_1681e49dbe7df7e8c8c8e5ee4e6fd4d9.setContent(html_1ea531e0b38584b9e5dd9df96f21aa0c);
+        
+
+        circle_marker_812fad3d4b30b4fcdbe0547a61a5d331.bindPopup(popup_1681e49dbe7df7e8c8c8e5ee4e6fd4d9)
+        ;
+
+        
+    
+    
+            var circle_marker_60b8cb916cc38491b86a5f28b855bee6 = L.circleMarker(
+                [36.7595939, -77.8474502],
+                {"bubblingMouseEvents": true, "color": "#fec661ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec661ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_da7ed3322413c5516f0e5dd7213f9dd7 = L.popup({"maxWidth": 250});
+
+        
+            var html_c4f4b4cb27489ae05918b062a1a20e7f = $(`<div id="html_c4f4b4cb27489ae05918b062a1a20e7f" style="width: 100.0%; height: 100.0%;"><b>Saint Paul's College</b><br>Year of Closure: 2013</div>`)[0];
+            popup_da7ed3322413c5516f0e5dd7213f9dd7.setContent(html_c4f4b4cb27489ae05918b062a1a20e7f);
+        
+
+        circle_marker_60b8cb916cc38491b86a5f28b855bee6.bindPopup(popup_da7ed3322413c5516f0e5dd7213f9dd7)
+        ;
+
+        
+    
+    
+            var circle_marker_d9281f812813b52c413c3830cbf91f3f = L.circleMarker(
+                [34.063828, -118.3020382],
+                {"bubblingMouseEvents": true, "color": "#ffeda0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeda0ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_45d4e92db7bdd137ed4fccd56497913c = L.popup({"maxWidth": 250});
+
+        
+            var html_af96bff15cbbf273d3c55e304d7294b7 = $(`<div id="html_af96bff15cbbf273d3c55e304d7294b7" style="width: 100.0%; height: 100.0%;"><b>Samra University of Oriental Medicine</b><br>Year of Closure: 2010</div>`)[0];
+            popup_45d4e92db7bdd137ed4fccd56497913c.setContent(html_af96bff15cbbf273d3c55e304d7294b7);
+        
+
+        circle_marker_d9281f812813b52c413c3830cbf91f3f.bindPopup(popup_45d4e92db7bdd137ed4fccd56497913c)
+        ;
+
+        
+    
+    
+            var circle_marker_069a0fd7007950060739d800ee6b221f = L.circleMarker(
+                [37.8038552, -122.4172161],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_5dc2b58ff50c4359f13b1de5dc8ee2fb = L.popup({"maxWidth": 250});
+
+        
+            var html_1651704d0749e0c0888cb6b15206bdc2 = $(`<div id="html_1651704d0749e0c0888cb6b15206bdc2" style="width: 100.0%; height: 100.0%;"><b>San Francisco Art Institute</b><br>Year of Closure: 2022</div>`)[0];
+            popup_5dc2b58ff50c4359f13b1de5dc8ee2fb.setContent(html_1651704d0749e0c0888cb6b15206bdc2);
+        
+
+        circle_marker_069a0fd7007950060739d800ee6b221f.bindPopup(popup_5dc2b58ff50c4359f13b1de5dc8ee2fb)
+        ;
+
+        
+    
+    
+            var circle_marker_5ddf2ae2cfd601945f07718304703f28 = L.circleMarker(
+                [41.7747818, -88.142563],
+                {"bubblingMouseEvents": true, "color": "#fd6d33ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6d33ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_30eb0fe28e281617340db33852568d96 = L.popup({"maxWidth": 250});
+
+        
+            var html_de803a3be0748bd9c72c9f4edacc94cd = $(`<div id="html_de803a3be0748bd9c72c9f4edacc94cd" style="width: 100.0%; height: 100.0%;"><b>Shimer College</b><br>Year of Closure: 2017</div>`)[0];
+            popup_30eb0fe28e281617340db33852568d96.setContent(html_de803a3be0748bd9c72c9f4edacc94cd);
+        
+
+        circle_marker_5ddf2ae2cfd601945f07718304703f28.bindPopup(popup_30eb0fe28e281617340db33852568d96)
+        ;
+
+        
+    
+    
+            var circle_marker_ef1cb89871fc11eb24befa2ded4f6fbc = L.circleMarker(
+                [39.2427152, -119.9388955],
+                {"bubblingMouseEvents": true, "color": "#bd0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bd0026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_3df2ee4d6270ef18b99c2535cdf81d38 = L.popup({"maxWidth": 250});
+
+        
+            var html_5f823d9156d27872d565fe335de948f4 = $(`<div id="html_5f823d9156d27872d565fe335de948f4" style="width: 100.0%; height: 100.0%;"><b>Sierra Nevada College</b><br>Year of Closure: 2022</div>`)[0];
+            popup_3df2ee4d6270ef18b99c2535cdf81d38.setContent(html_5f823d9156d27872d565fe335de948f4);
+        
+
+        circle_marker_ef1cb89871fc11eb24befa2ded4f6fbc.bindPopup(popup_3df2ee4d6270ef18b99c2535cdf81d38)
+        ;
+
+        
+    
+    
+            var circle_marker_72c459646f55884976c38c1430897669 = L.circleMarker(
+                [39.2943119, -76.6000018],
+                {"bubblingMouseEvents": true, "color": "#fea044ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea044ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_2d10c6daea32366a9991ad895ece3afb = L.popup({"maxWidth": 250});
+
+        
+            var html_264dd4f6dd6781b8bfceae06abd2372f = $(`<div id="html_264dd4f6dd6781b8bfceae06abd2372f" style="width: 100.0%; height: 100.0%;"><b>Sojourner-Douglass College</b><br>Year of Closure: 2015</div>`)[0];
+            popup_2d10c6daea32366a9991ad895ece3afb.setContent(html_264dd4f6dd6781b8bfceae06abd2372f);
+        
+
+        circle_marker_72c459646f55884976c38c1430897669.bindPopup(popup_2d10c6daea32366a9991ad895ece3afb)
+        ;
+
+        
+    
+    
+            var circle_marker_01506aed2cc30c6976ef5edd327af4eb = L.circleMarker(
+                [33.3786697, -86.7493518],
+                {"bubblingMouseEvents": true, "color": "#fd6d33ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6d33ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_35527c32710dacd3f0bbbd4c1226f319 = L.popup({"maxWidth": 250});
+
+        
+            var html_091026a9bf85c31b16d12bb3c16650c2 = $(`<div id="html_091026a9bf85c31b16d12bb3c16650c2" style="width: 100.0%; height: 100.0%;"><b>Southeastern Bible College</b><br>Year of Closure: 2017</div>`)[0];
+            popup_35527c32710dacd3f0bbbd4c1226f319.setContent(html_091026a9bf85c31b16d12bb3c16650c2);
+        
+
+        circle_marker_01506aed2cc30c6976ef5edd327af4eb.bindPopup(popup_35527c32710dacd3f0bbbd4c1226f319)
+        ;
+
+        
+    
+    
+            var circle_marker_e8b2e5d2f0a8206a1aaac12d61893112 = L.circleMarker(
+                [28.0302029, -81.9179682],
+                {"bubblingMouseEvents": true, "color": "#fff6b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff6b6ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_00dcd66119467c6dadee43df31790724 = L.popup({"maxWidth": 250});
+
+        
+            var html_3125fb6dc6a86f7b5e4a3313636a40ce = $(`<div id="html_3125fb6dc6a86f7b5e4a3313636a40ce" style="width: 100.0%; height: 100.0%;"><b>Southeastern University</b><br>Year of Closure: 2009</div>`)[0];
+            popup_00dcd66119467c6dadee43df31790724.setContent(html_3125fb6dc6a86f7b5e4a3313636a40ce);
+        
+
+        circle_marker_e8b2e5d2f0a8206a1aaac12d61893112.bindPopup(popup_00dcd66119467c6dadee43df31790724)
+        ;
+
+        
+    
+    
+            var circle_marker_908b7a1cfb4a36f62e34db6cbdddbf16 = L.circleMarker(
+                [34.42128, -84.118187],
+                {"bubblingMouseEvents": true, "color": "#ffeda0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeda0ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_9abe57e9beabff112752a4333c11f016 = L.popup({"maxWidth": 250});
+
+        
+            var html_3c960b8e2c79453481316f2ae919a23d = $(`<div id="html_3c960b8e2c79453481316f2ae919a23d" style="width: 100.0%; height: 100.0%;"><b>Southern Catholic College</b><br>Year of Closure: 2010</div>`)[0];
+            popup_9abe57e9beabff112752a4333c11f016.setContent(html_3c960b8e2c79453481316f2ae919a23d);
+        
+
+        circle_marker_908b7a1cfb4a36f62e34db6cbdddbf16.bindPopup(popup_9abe57e9beabff112752a4333c11f016)
+        ;
+
+        
+    
+    
+            var circle_marker_84c0620414f95aff9588cd25a73a557a = L.circleMarker(
+                [42.8727188, -73.2172241],
+                {"bubblingMouseEvents": true, "color": "#f03423ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03423ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_c60db2203e8fde3a987a158dfa482a2a = L.popup({"maxWidth": 250});
+
+        
+            var html_5009030f017d07dd0825b3d2e05ef115 = $(`<div id="html_5009030f017d07dd0825b3d2e05ef115" style="width: 100.0%; height: 100.0%;"><b>Southern Vermont College</b><br>Year of Closure: 2019</div>`)[0];
+            popup_c60db2203e8fde3a987a158dfa482a2a.setContent(html_5009030f017d07dd0825b3d2e05ef115);
+        
+
+        circle_marker_84c0620414f95aff9588cd25a73a557a.bindPopup(popup_c60db2203e8fde3a987a158dfa482a2a)
+        ;
+
+        
+    
+    
+            var circle_marker_3e25273fddf867e0bbbe5bc38096de57 = L.circleMarker(
+                [32.221644, -110.970792],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f407d78bb8474b2384b0af1ee24ed9a0 = L.popup({"maxWidth": 250});
+
+        
+            var html_74cadf12b5c86107587a3fdc75360ce0 = $(`<div id="html_74cadf12b5c86107587a3fdc75360ce0" style="width: 100.0%; height: 100.0%;"><b>Southwest University of Visual Arts</b><br>Year of Closure: 2020</div>`)[0];
+            popup_f407d78bb8474b2384b0af1ee24ed9a0.setContent(html_74cadf12b5c86107587a3fdc75360ce0);
+        
+
+        circle_marker_3e25273fddf867e0bbbe5bc38096de57.bindPopup(popup_f407d78bb8474b2384b0af1ee24ed9a0)
+        ;
+
+        
+    
+    
+            var circle_marker_c39200b30c29f087111817b7c2e176d4 = L.circleMarker(
+                [37.685192, -85.221947],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_e35ff619895375a6119ff3e674aaffd0 = L.popup({"maxWidth": 250});
+
+        
+            var html_bc27ee55c5518bd82b2914d1bd3442c8 = $(`<div id="html_bc27ee55c5518bd82b2914d1bd3442c8" style="width: 100.0%; height: 100.0%;"><b>St. Catharine College</b><br>Year of Closure: 2016</div>`)[0];
+            popup_e35ff619895375a6119ff3e674aaffd0.setContent(html_bc27ee55c5518bd82b2914d1bd3442c8);
+        
+
+        circle_marker_c39200b30c29f087111817b7c2e176d4.bindPopup(popup_e35ff619895375a6119ff3e674aaffd0)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc77988cf674d75b14e2892ab0cd0cb = L.circleMarker(
+                [42.1965684, -87.8799138],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_2be59109a1961582b21ea46c57afa53f = L.popup({"maxWidth": 250});
+
+        
+            var html_5547fdc28fde6af555c0f3b34c4da201 = $(`<div id="html_5547fdc28fde6af555c0f3b34c4da201" style="width: 100.0%; height: 100.0%;"><b>Trinity International University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_2be59109a1961582b21ea46c57afa53f.setContent(html_5547fdc28fde6af555c0f3b34c4da201);
+        
+
+        circle_marker_6cc77988cf674d75b14e2892ab0cd0cb.bindPopup(popup_2be59109a1961582b21ea46c57afa53f)
+        ;
+
+        
+    
+    
+            var circle_marker_3d7dd95fe304da4d953905c908b76425 = L.circleMarker(
+                [44.2549165, -72.5682107],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0c1bc95c3117838ef22549a847d9693b = L.popup({"maxWidth": 250});
+
+        
+            var html_2f3b318f5af31eae84cf715fdab7f7af = $(`<div id="html_2f3b318f5af31eae84cf715fdab7f7af" style="width: 100.0%; height: 100.0%;"><b>Union Institute & University</b><br>Year of Closure: 2024</div>`)[0];
+            popup_0c1bc95c3117838ef22549a847d9693b.setContent(html_2f3b318f5af31eae84cf715fdab7f7af);
+        
+
+        circle_marker_3d7dd95fe304da4d953905c908b76425.bindPopup(popup_0c1bc95c3117838ef22549a847d9693b)
+        ;
+
+        
+    
+    
+            var circle_marker_154a127901b375d6428be68c1a00848d = L.circleMarker(
+                [33.138297, -117.160705],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_f3f22d51e839466c298d0f53e608bddc = L.popup({"maxWidth": 250});
+
+        
+            var html_3be6c710cef3cd56a224e8a1aa5130e2 = $(`<div id="html_3be6c710cef3cd56a224e8a1aa5130e2" style="width: 100.0%; height: 100.0%;"><b>University of Saint Katherine</b><br>Year of Closure: 2024</div>`)[0];
+            popup_f3f22d51e839466c298d0f53e608bddc.setContent(html_3be6c710cef3cd56a224e8a1aa5130e2);
+        
+
+        circle_marker_154a127901b375d6428be68c1a00848d.bindPopup(popup_f3f22d51e839466c298d0f53e608bddc)
+        ;
+
+        
+    
+    
+            var circle_marker_c44523470fae81b1d8a43508b8b1fe4e = L.circleMarker(
+                [39.9460166, -75.1655792],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0c0e44eda033a003c5d8cd5c619ec4cd = L.popup({"maxWidth": 250});
+
+        
+            var html_3a85d00ad125a07202aede0d1dca31ae = $(`<div id="html_3a85d00ad125a07202aede0d1dca31ae" style="width: 100.0%; height: 100.0%;"><b>University of the Arts (The)</b><br>Year of Closure: 2024</div>`)[0];
+            popup_0c0e44eda033a003c5d8cd5c619ec4cd.setContent(html_3a85d00ad125a07202aede0d1dca31ae);
+        
+
+        circle_marker_c44523470fae81b1d8a43508b8b1fe4e.bindPopup(popup_0c0e44eda033a003c5d8cd5c619ec4cd)
+        ;
+
+        
+    
+    
+            var circle_marker_bb924dbc7622603e5c1379a6eb3cb987 = L.circleMarker(
+                [41.2895344, -92.6177643],
+                {"bubblingMouseEvents": true, "color": "#ffffccff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_ac6be80922c9fa247331501065c7334c = L.popup({"maxWidth": 250});
+
+        
+            var html_c3fa225545cb35656114c876ec86bbd1 = $(`<div id="html_c3fa225545cb35656114c876ec86bbd1" style="width: 100.0%; height: 100.0%;"><b>Vennard College</b><br>Year of Closure: 2008</div>`)[0];
+            popup_ac6be80922c9fa247331501065c7334c.setContent(html_c3fa225545cb35656114c876ec86bbd1);
+        
+
+        circle_marker_bb924dbc7622603e5c1379a6eb3cb987.bindPopup(popup_ac6be80922c9fa247331501065c7334c)
+        ;
+
+        
+    
+    
+            var circle_marker_0fee41a3734d021a88f4d30c758cd028 = L.circleMarker(
+                [36.6048746, -82.1763338],
+                {"bubblingMouseEvents": true, "color": "#feb24cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb24cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_10f33d2870b1989cc02950daf535a3d7 = L.popup({"maxWidth": 250});
+
+        
+            var html_6116481c37f69847fd5c6afdfee8e08a = $(`<div id="html_6116481c37f69847fd5c6afdfee8e08a" style="width: 100.0%; height: 100.0%;"><b>Virginia Intermont College</b><br>Year of Closure: 2014</div>`)[0];
+            popup_10f33d2870b1989cc02950daf535a3d7.setContent(html_6116481c37f69847fd5c6afdfee8e08a);
+        
+
+        circle_marker_0fee41a3734d021a88f4d30c758cd028.bindPopup(popup_10f33d2870b1989cc02950daf535a3d7)
+        ;
+
+        
+    
+    
+            var circle_marker_a989a4a7c3830a420dbd73007936d40e = L.circleMarker(
+                [38.976504, -76.865181],
+                {"bubblingMouseEvents": true, "color": "#fec661ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec661ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_6c239f7e95e8a6a8cdcf1f42f48139fe = L.popup({"maxWidth": 250});
+
+        
+            var html_0b41549943d96762d903af1ec6739f8b = $(`<div id="html_0b41549943d96762d903af1ec6739f8b" style="width: 100.0%; height: 100.0%;"><b>Washington Bible College</b><br>Year of Closure: 2013</div>`)[0];
+            popup_6c239f7e95e8a6a8cdcf1f42f48139fe.setContent(html_0b41549943d96762d903af1ec6739f8b);
+        
+
+        circle_marker_a989a4a7c3830a420dbd73007936d40e.bindPopup(popup_6c239f7e95e8a6a8cdcf1f42f48139fe)
+        ;
+
+        
+    
+    
+            var circle_marker_0b4fa29e0ad16ad7a28b12c4de2c748b = L.circleMarker(
+                [36.195374, -86.8077938],
+                {"bubblingMouseEvents": true, "color": "#e31a1cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e31a1cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_270917feba30b4eb9a6e6befa29f7154 = L.popup({"maxWidth": 250});
+
+        
+            var html_e6dd5afe7e7321ca1dfe2fe2c62c82fb = $(`<div id="html_e6dd5afe7e7321ca1dfe2fe2c62c82fb" style="width: 100.0%; height: 100.0%;"><b>Watkins College of Art, Design & Film</b><br>Year of Closure: 2020</div>`)[0];
+            popup_270917feba30b4eb9a6e6befa29f7154.setContent(html_e6dd5afe7e7321ca1dfe2fe2c62c82fb);
+        
+
+        circle_marker_0b4fa29e0ad16ad7a28b12c4de2c748b.bindPopup(popup_270917feba30b4eb9a6e6befa29f7154)
+        ;
+
+        
+    
+    
+            var circle_marker_ea35cc5b510521f617e8420fed02c09f = L.circleMarker(
+                [42.7442687, -76.6965816],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_b120bcc48b7c480ed23c8b3806c84414 = L.popup({"maxWidth": 250});
+
+        
+            var html_adfab2107c8ece04e08e27959fbd5d0b = $(`<div id="html_adfab2107c8ece04e08e27959fbd5d0b" style="width: 100.0%; height: 100.0%;"><b>Wells College</b><br>Year of Closure: 2024</div>`)[0];
+            popup_b120bcc48b7c480ed23c8b3806c84414.setContent(html_adfab2107c8ece04e08e27959fbd5d0b);
+        
+
+        circle_marker_ea35cc5b510521f617e8420fed02c09f.bindPopup(popup_b120bcc48b7c480ed23c8b3806c84414)
+        ;
+
+        
+    
+    
+            var circle_marker_2228566dcd986ee0545e44f78be4fd38 = L.circleMarker(
+                [39.163227, -75.527717],
+                {"bubblingMouseEvents": true, "color": "#ffeda0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeda0ff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_72e70b10d4fcfa201fd560b99b3a751d = L.popup({"maxWidth": 250});
+
+        
+            var html_54d745b94464cf496bcba310ab984444 = $(`<div id="html_54d745b94464cf496bcba310ab984444" style="width: 100.0%; height: 100.0%;"><b>Wesley College</b><br>Year of Closure: 2010</div>`)[0];
+            popup_72e70b10d4fcfa201fd560b99b3a751d.setContent(html_54d745b94464cf496bcba310ab984444);
+        
+
+        circle_marker_2228566dcd986ee0545e44f78be4fd38.bindPopup(popup_72e70b10d4fcfa201fd560b99b3a751d)
+        ;
+
+        
+    
+    
+            var circle_marker_531b25d0648810c1a2048880e7324077 = L.circleMarker(
+                [21.2923555, -157.823687],
+                {"bubblingMouseEvents": true, "color": "#fc4e2aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4e2aff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_0032d32d42da9799904db1b24f1cd63a = L.popup({"maxWidth": 250});
+
+        
+            var html_2fde6ccb198852c2b69a651a4c422d25 = $(`<div id="html_2fde6ccb198852c2b69a651a4c422d25" style="width: 100.0%; height: 100.0%;"><b>World Medicine Institute</b><br>Year of Closure: 2018</div>`)[0];
+            popup_0032d32d42da9799904db1b24f1cd63a.setContent(html_2fde6ccb198852c2b69a651a4c422d25);
+        
+
+        circle_marker_531b25d0648810c1a2048880e7324077.bindPopup(popup_0032d32d42da9799904db1b24f1cd63a)
+        ;
+
+        
+    
+    
+            var circle_marker_df580bbcc4ad8aa559acddcc8c6d544b = L.circleMarker(
+                [37.6823808, -97.2474461],
+                {"bubblingMouseEvents": true, "color": "#fd8d3cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd8d3cff", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6e192e463db974cfa5e41e10b8131020);
+        
+    
+        var popup_d7dea56982f0696f1b11d59dbbd602ac = L.popup({"maxWidth": 250});
+
+        
+            var html_899b0673af93e16e706122fc6671afba = $(`<div id="html_899b0673af93e16e706122fc6671afba" style="width: 100.0%; height: 100.0%;"><b>Wright Career College</b><br>Year of Closure: 2016</div>`)[0];
+            popup_d7dea56982f0696f1b11d59dbbd602ac.setContent(html_899b0673af93e16e706122fc6671afba);
+        
+
+        circle_marker_df580bbcc4ad8aa559acddcc8c6d544b.bindPopup(popup_d7dea56982f0696f1b11d59dbbd602ac)
+        ;
+
+        
+    
+    
+    var color_map_144468d237c11ff6f217fa0b8f9cd4e3 = {};
+
+    
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.color = d3.scale.threshold()
+              .domain([2008.0, 2008.0320641282565, 2008.064128256513, 2008.0961923847694, 2008.1282565130261, 2008.1603206412826, 2008.192384769539, 2008.2244488977956, 2008.256513026052, 2008.2885771543085, 2008.320641282565, 2008.3527054108217, 2008.3847695390782, 2008.4168336673347, 2008.4488977955912, 2008.4809619238476, 2008.5130260521041, 2008.5450901803608, 2008.5771543086173, 2008.6092184368738, 2008.6412825651303, 2008.6733466933867, 2008.7054108216432, 2008.7374749498997, 2008.7695390781564, 2008.801603206413, 2008.8336673346694, 2008.8657314629259, 2008.8977955911823, 2008.9298597194388, 2008.9619238476953, 2008.993987975952, 2009.0260521042085, 2009.058116232465, 2009.0901803607214, 2009.122244488978, 2009.1543086172344, 2009.1863727454909, 2009.2184368737476, 2009.250501002004, 2009.2825651302605, 2009.314629258517, 2009.3466933867735, 2009.37875751503, 2009.4108216432867, 2009.4428857715432, 2009.4749498997996, 2009.5070140280561, 2009.5390781563126, 2009.571142284569, 2009.6032064128256, 2009.6352705410823, 2009.6673346693387, 2009.6993987975952, 2009.7314629258517, 2009.7635270541082, 2009.7955911823647, 2009.8276553106211, 2009.8597194388778, 2009.8917835671343, 2009.9238476953908, 2009.9559118236473, 2009.9879759519038, 2010.0200400801602, 2010.0521042084167, 2010.0841683366734, 2010.11623246493, 2010.1482965931864, 2010.1803607214429, 2010.2124248496993, 2010.2444889779558, 2010.2765531062125, 2010.308617234469, 2010.3406813627255, 2010.372745490982, 2010.4048096192384, 2010.436873747495, 2010.4689378757514, 2010.5010020040081, 2010.5330661322646, 2010.565130260521, 2010.5971943887776, 2010.629258517034, 2010.6613226452905, 2010.693386773547, 2010.7254509018037, 2010.7575150300602, 2010.7895791583167, 2010.8216432865731, 2010.8537074148296, 2010.885771543086, 2010.9178356713426, 2010.9498997995993, 2010.9819639278558, 2011.0140280561122, 2011.0460921843687, 2011.0781563126252, 2011.1102204408817, 2011.1422845691384, 2011.1743486973949, 2011.2064128256513, 2011.2384769539078, 2011.2705410821643, 2011.3026052104208, 2011.3346693386773, 2011.366733466934, 2011.3987975951904, 2011.430861723447, 2011.4629258517034, 2011.4949899799599, 2011.5270541082164, 2011.5591182364728, 2011.5911823647295, 2011.623246492986, 2011.6553106212425, 2011.687374749499, 2011.7194388777555, 2011.751503006012, 2011.7835671342684, 2011.8156312625251, 2011.8476953907816, 2011.879759519038, 2011.9118236472946, 2011.943887775551, 2011.9759519038075, 2012.0080160320642, 2012.0400801603207, 2012.0721442885772, 2012.1042084168337, 2012.1362725450902, 2012.1683366733466, 2012.200400801603, 2012.2324649298598, 2012.2645290581163, 2012.2965931863728, 2012.3286573146293, 2012.3607214428857, 2012.3927855711422, 2012.4248496993987, 2012.4569138276554, 2012.4889779559119, 2012.5210420841684, 2012.5531062124248, 2012.5851703406813, 2012.6172344689378, 2012.6492985971945, 2012.681362725451, 2012.7134268537075, 2012.745490981964, 2012.7775551102204, 2012.809619238477, 2012.8416833667334, 2012.87374749499, 2012.9058116232466, 2012.937875751503, 2012.9699398797595, 2013.002004008016, 2013.0340681362725, 2013.066132264529, 2013.0981963927857, 2013.1302605210421, 2013.1623246492986, 2013.194388777555, 2013.2264529058116, 2013.258517034068, 2013.2905811623245, 2013.3226452905812, 2013.3547094188377, 2013.3867735470942, 2013.4188376753507, 2013.4509018036072, 2013.4829659318636, 2013.5150300601204, 2013.5470941883768, 2013.5791583166333, 2013.6112224448898, 2013.6432865731463, 2013.6753507014027, 2013.7074148296592, 2013.739478957916, 2013.7715430861724, 2013.803607214429, 2013.8356713426854, 2013.8677354709419, 2013.8997995991983, 2013.9318637274548, 2013.9639278557115, 2013.995991983968, 2014.0280561122245, 2014.060120240481, 2014.0921843687374, 2014.124248496994, 2014.1563126252504, 2014.188376753507, 2014.2204408817636, 2014.25250501002, 2014.2845691382765, 2014.316633266533, 2014.3486973947895, 2014.3807615230462, 2014.4128256513027, 2014.4448897795592, 2014.4769539078156, 2014.5090180360721, 2014.5410821643286, 2014.573146292585, 2014.6052104208418, 2014.6372745490983, 2014.6693386773547, 2014.7014028056112, 2014.7334669338677, 2014.7655310621242, 2014.7975951903807, 2014.8296593186374, 2014.8617234468938, 2014.8937875751503, 2014.9258517034068, 2014.9579158316633, 2014.9899799599198, 2015.0220440881762, 2015.054108216433, 2015.0861723446894, 2015.118236472946, 2015.1503006012024, 2015.1823647294589, 2015.2144288577153, 2015.246492985972, 2015.2785571142285, 2015.310621242485, 2015.3426853707415, 2015.374749498998, 2015.4068136272545, 2015.438877755511, 2015.4709418837676, 2015.5030060120241, 2015.5350701402806, 2015.567134268537, 2015.5991983967936, 2015.63126252505, 2015.6633266533065, 2015.6953907815632, 2015.7274549098197, 2015.7595190380762, 2015.7915831663327, 2015.8236472945891, 2015.8557114228456, 2015.887775551102, 2015.9198396793588, 2015.9519038076153, 2015.9839679358718, 2016.0160320641282, 2016.0480961923847, 2016.0801603206412, 2016.112224448898, 2016.1442885771544, 2016.1763527054109, 2016.2084168336673, 2016.2404809619238, 2016.2725450901803, 2016.3046092184368, 2016.3366733466935, 2016.36873747495, 2016.4008016032064, 2016.432865731463, 2016.4649298597194, 2016.4969939879759, 2016.5290581162324, 2016.561122244489, 2016.5931863727455, 2016.625250501002, 2016.6573146292585, 2016.689378757515, 2016.7214428857715, 2016.753507014028, 2016.7855711422847, 2016.8176352705411, 2016.8496993987976, 2016.881763527054, 2016.9138276553106, 2016.945891783567, 2016.9779559118238, 2017.0100200400802, 2017.0420841683367, 2017.0741482965932, 2017.1062124248497, 2017.1382765531062, 2017.1703406813626, 2017.2024048096193, 2017.2344689378758, 2017.2665330661323, 2017.2985971943888, 2017.3306613226453, 2017.3627254509017, 2017.3947895791582, 2017.426853707415, 2017.4589178356714, 2017.4909819639279, 2017.5230460921844, 2017.5551102204408, 2017.5871743486973, 2017.6192384769538, 2017.6513026052105, 2017.683366733467, 2017.7154308617235, 2017.74749498998, 2017.7795591182364, 2017.811623246493, 2017.8436873747496, 2017.875751503006, 2017.9078156312626, 2017.939879759519, 2017.9719438877755, 2018.004008016032, 2018.0360721442885, 2018.0681362725452, 2018.1002004008017, 2018.1322645290581, 2018.1643286573146, 2018.196392785571, 2018.2284569138276, 2018.260521042084, 2018.2925851703408, 2018.3246492985973, 2018.3567134268537, 2018.3887775551102, 2018.4208416833667, 2018.4529058116232, 2018.4849699398796, 2018.5170340681364, 2018.5490981963928, 2018.5811623246493, 2018.6132264529058, 2018.6452905811623, 2018.6773547094188, 2018.7094188376755, 2018.741482965932, 2018.7735470941884, 2018.805611222445, 2018.8376753507014, 2018.8697394789579, 2018.9018036072143, 2018.933867735471, 2018.9659318637275, 2018.997995991984, 2019.0300601202405, 2019.062124248497, 2019.0941883767534, 2019.12625250501, 2019.1583166332666, 2019.190380761523, 2019.2224448897796, 2019.254509018036, 2019.2865731462925, 2019.318637274549, 2019.3507014028055, 2019.3827655310622, 2019.4148296593187, 2019.4468937875752, 2019.4789579158316, 2019.5110220440881, 2019.5430861723446, 2019.5751503006013, 2019.6072144288578, 2019.6392785571143, 2019.6713426853707, 2019.7034068136272, 2019.7354709418837, 2019.7675350701402, 2019.799599198397, 2019.8316633266534, 2019.8637274549098, 2019.8957915831663, 2019.9278557114228, 2019.9599198396793, 2019.9919839679358, 2020.0240480961925, 2020.056112224449, 2020.0881763527054, 2020.120240480962, 2020.1523046092184, 2020.1843687374749, 2020.2164328657313, 2020.248496993988, 2020.2805611222445, 2020.312625250501, 2020.3446893787575, 2020.376753507014, 2020.4088176352705, 2020.4408817635272, 2020.4729458917836, 2020.5050100200401, 2020.5370741482966, 2020.569138276553, 2020.6012024048096, 2020.633266533066, 2020.6653306613227, 2020.6973947895792, 2020.7294589178357, 2020.7615230460922, 2020.7935871743487, 2020.8256513026051, 2020.8577154308616, 2020.8897795591183, 2020.9218436873748, 2020.9539078156313, 2020.9859719438878, 2021.0180360721442, 2021.0501002004007, 2021.0821643286574, 2021.114228456914, 2021.1462925851704, 2021.1783567134269, 2021.2104208416833, 2021.2424849699398, 2021.2745490981963, 2021.306613226453, 2021.3386773547095, 2021.370741482966, 2021.4028056112224, 2021.434869739479, 2021.4669338677354, 2021.4989979959919, 2021.5310621242486, 2021.563126252505, 2021.5951903807616, 2021.627254509018, 2021.6593186372745, 2021.691382765531, 2021.7234468937875, 2021.7555110220442, 2021.7875751503007, 2021.8196392785571, 2021.8517034068136, 2021.88376753507, 2021.9158316633266, 2021.9478957915833, 2021.9799599198398, 2022.0120240480962, 2022.0440881763527, 2022.0761523046092, 2022.1082164328657, 2022.1402805611222, 2022.1723446893789, 2022.2044088176353, 2022.2364729458918, 2022.2685370741483, 2022.3006012024048, 2022.3326653306613, 2022.3647294589177, 2022.3967935871744, 2022.428857715431, 2022.4609218436874, 2022.4929859719439, 2022.5250501002004, 2022.5571142284568, 2022.5891783567133, 2022.62124248497, 2022.6533066132265, 2022.685370741483, 2022.7174348697395, 2022.749498997996, 2022.7815631262524, 2022.8136272545091, 2022.8456913827656, 2022.877755511022, 2022.9098196392786, 2022.941883767535, 2022.9739478957915, 2023.006012024048, 2023.0380761523047, 2023.0701402805612, 2023.1022044088177, 2023.1342685370741, 2023.1663326653306, 2023.198396793587, 2023.2304609218436, 2023.2625250501003, 2023.2945891783568, 2023.3266533066133, 2023.3587174348697, 2023.3907815631262, 2023.4228456913827, 2023.4549098196392, 2023.4869739478959, 2023.5190380761524, 2023.5511022044088, 2023.5831663326653, 2023.6152304609218, 2023.6472945891783, 2023.679358717435, 2023.7114228456915, 2023.743486973948, 2023.7755511022044, 2023.807615230461, 2023.8396793587174, 2023.8717434869739, 2023.9038076152306, 2023.935871743487, 2023.9679358717435, 2024.0])
+              .range(['#ffffccff', '#ffffccff', '#ffffcbff', '#ffffcaff', '#fffec9ff', '#fffec9ff', '#fffec8ff', '#fffdc7ff', '#fffdc7ff', '#fffdc6ff', '#fffdc5ff', '#fffcc5ff', '#fffcc4ff', '#fffcc3ff', '#fffbc2ff', '#fffbc2ff', '#fffbc1ff', '#fffbc0ff', '#fffac0ff', '#fffabfff', '#fffabeff', '#fff9bdff', '#fff9bdff', '#fff9bcff', '#fff9bbff', '#fff8bbff', '#fff8baff', '#fff8b9ff', '#fff7b8ff', '#fff7b8ff', '#fff7b7ff', '#fff7b6ff', '#fff6b6ff', '#fff6b5ff', '#fff6b4ff', '#fff5b4ff', '#fff5b3ff', '#fff5b2ff', '#fff4b1ff', '#fff4b1ff', '#fff4b0ff', '#fff4afff', '#fff3afff', '#fff3aeff', '#fff3adff', '#fff2acff', '#fff2acff', '#fff2abff', '#fff2aaff', '#fff1aaff', '#fff1a9ff', '#fff1a8ff', '#fff0a7ff', '#fff0a7ff', '#fff0a6ff', '#fff0a5ff', '#ffefa5ff', '#ffefa4ff', '#ffefa3ff', '#ffeea3ff', '#ffeea2ff', '#ffeea1ff', '#ffeea0ff', '#ffeda0ff', '#ffed9fff', '#ffed9eff', '#ffec9eff', '#ffec9dff', '#ffec9cff', '#ffeb9cff', '#ffeb9bff', '#ffeb9aff', '#ffea9aff', '#ffea99ff', '#ffea98ff', '#ffe998ff', '#ffe997ff', '#ffe996ff', '#ffe896ff', '#ffe895ff', '#ffe894ff', '#ffe794ff', '#ffe793ff', '#ffe792ff', '#ffe692ff', '#ffe691ff', '#ffe690ff', '#ffe68fff', '#ffe58fff', '#ffe58eff', '#ffe58dff', '#ffe48dff', '#ffe48cff', '#ffe48bff', '#ffe38bff', '#ffe38aff', '#ffe389ff', '#ffe289ff', '#ffe288ff', '#ffe287ff', '#ffe187ff', '#ffe186ff', '#ffe185ff', '#ffe085ff', '#ffe084ff', '#ffe083ff', '#ffdf83ff', '#ffdf82ff', '#ffdf81ff', '#ffde81ff', '#ffde80ff', '#ffde7fff', '#ffdd7fff', '#ffdd7eff', '#ffdd7dff', '#ffdc7dff', '#ffdc7cff', '#ffdc7bff', '#ffdc7bff', '#ffdb7aff', '#ffdb79ff', '#ffdb78ff', '#ffda78ff', '#ffda77ff', '#ffda76ff', '#fed976ff', '#fed975ff', '#fed874ff', '#fed774ff', '#fed773ff', '#fed672ff', '#fed572ff', '#fed571ff', '#fed470ff', '#fed470ff', '#fed36fff', '#fed26eff', '#fed26eff', '#fed16dff', '#fed06cff', '#fed06cff', '#fecf6bff', '#fecf6aff', '#fece6aff', '#fecd69ff', '#fecd68ff', '#fecc68ff', '#fecb67ff', '#fecb66ff', '#feca66ff', '#feca65ff', '#fec964ff', '#fec864ff', '#fec863ff', '#fec762ff', '#fec662ff', '#fec661ff', '#fec560ff', '#fec45fff', '#fec45fff', '#fec35eff', '#fec35dff', '#fec25dff', '#fec15cff', '#fec15bff', '#fec05bff', '#febf5aff', '#febf59ff', '#febe59ff', '#febe58ff', '#febd57ff', '#febc57ff', '#febc56ff', '#febb55ff', '#feba55ff', '#feba54ff', '#feb953ff', '#feb953ff', '#feb852ff', '#feb751ff', '#feb751ff', '#feb650ff', '#feb54fff', '#feb54fff', '#feb44eff', '#feb44dff', '#feb34dff', '#feb24cff', '#feb24cff', '#feb14bff', '#feb04bff', '#feb04bff', '#feaf4bff', '#feaf4aff', '#feae4aff', '#feae4aff', '#fead4aff', '#feac49ff', '#feac49ff', '#feab49ff', '#feab48ff', '#feaa48ff', '#fea948ff', '#fea948ff', '#fea847ff', '#fea847ff', '#fea747ff', '#fea647ff', '#fea646ff', '#fea546ff', '#fea546ff', '#fea446ff', '#fea345ff', '#fea345ff', '#fea245ff', '#fea245ff', '#fea144ff', '#fea044ff', '#fea044ff', '#fe9f44ff', '#fe9f43ff', '#fe9e43ff', '#fe9d43ff', '#fe9d43ff', '#fe9c42ff', '#fe9c42ff', '#fe9b42ff', '#fe9a42ff', '#fe9a41ff', '#fe9941ff', '#fe9941ff', '#fe9840ff', '#fe9740ff', '#fe9740ff', '#fe9640ff', '#fe963fff', '#fe953fff', '#fe943fff', '#fe943fff', '#fe933eff', '#fe933eff', '#fe923eff', '#fe923eff', '#fe913dff', '#fe903dff', '#fe903dff', '#fe8f3dff', '#fe8f3cff', '#fe8e3cff', '#fe8d3cff', '#fd8d3cff', '#fd8c3bff', '#fd8b3bff', '#fd8a3bff', '#fd883aff', '#fd873aff', '#fd863aff', '#fd853aff', '#fd8439ff', '#fd8339ff', '#fd8239ff', '#fd8138ff', '#fd8038ff', '#fd7f38ff', '#fd7e38ff', '#fd7d37ff', '#fd7c37ff', '#fd7b37ff', '#fd7a36ff', '#fd7936ff', '#fd7836ff', '#fd7736ff', '#fd7635ff', '#fd7535ff', '#fd7435ff', '#fd7334ff', '#fd7234ff', '#fd7134ff', '#fd7033ff', '#fd6f33ff', '#fd6e33ff', '#fd6d33ff', '#fd6c32ff', '#fd6b32ff', '#fd6a32ff', '#fd6931ff', '#fd6831ff', '#fd6731ff', '#fd6631ff', '#fd6530ff', '#fd6430ff', '#fd6330ff', '#fd622fff', '#fd612fff', '#fd602fff', '#fd5f2fff', '#fd5e2eff', '#fd5d2eff', '#fd5c2eff', '#fd5b2dff', '#fd5a2dff', '#fd592dff', '#fd582dff', '#fd572cff', '#fd562cff', '#fd552cff', '#fd542bff', '#fd532bff', '#fd522bff', '#fd512aff', '#fd502aff', '#fd4f2aff', '#fc4e2aff', '#fc4d29ff', '#fc4c29ff', '#fb4b29ff', '#fb4a29ff', '#fa4a29ff', '#fa4928ff', '#fa4828ff', '#f94728ff', '#f94628ff', '#f84527ff', '#f84427ff', '#f84427ff', '#f74327ff', '#f74226ff', '#f64126ff', '#f64026ff', '#f63f26ff', '#f53f26ff', '#f53e25ff', '#f43d25ff', '#f43c25ff', '#f43b25ff', '#f33a24ff', '#f33a24ff', '#f23924ff', '#f23824ff', '#f23724ff', '#f13623ff', '#f13523ff', '#f03523ff', '#f03423ff', '#f03322ff', '#ef3222ff', '#ef3122ff', '#ee3022ff', '#ee3022ff', '#ee2f21ff', '#ed2e21ff', '#ed2d21ff', '#ec2c21ff', '#ec2b20ff', '#ec2b20ff', '#eb2a20ff', '#eb2920ff', '#ea281fff', '#ea271fff', '#ea261fff', '#e9261fff', '#e9251fff', '#e8241eff', '#e8231eff', '#e8221eff', '#e7211eff', '#e7211dff', '#e6201dff', '#e61f1dff', '#e61e1dff', '#e51d1dff', '#e51c1cff', '#e41b1cff', '#e41b1cff', '#e31a1cff', '#e3191cff', '#e2191cff', '#e2181cff', '#e1181cff', '#e0181cff', '#e0171dff', '#df171dff', '#df161dff', '#de161dff', '#dd161dff', '#dd151dff', '#dc151eff', '#dc141eff', '#db141eff', '#da131eff', '#da131eff', '#d9131eff', '#d9121eff', '#d8121fff', '#d7111fff', '#d7111fff', '#d6111fff', '#d5101fff', '#d5101fff', '#d40f20ff', '#d40f20ff', '#d30e20ff', '#d20e20ff', '#d20e20ff', '#d10d20ff', '#d10d21ff', '#d00c21ff', '#cf0c21ff', '#cf0b21ff', '#ce0b21ff', '#ce0b21ff', '#cd0a22ff', '#cc0a22ff', '#cc0922ff', '#cb0922ff', '#ca0922ff', '#ca0822ff', '#c90822ff', '#c90723ff', '#c80723ff', '#c70623ff', '#c70623ff', '#c60623ff', '#c60523ff', '#c50524ff', '#c40424ff', '#c40424ff', '#c30424ff', '#c30324ff', '#c20324ff', '#c10225ff', '#c10225ff', '#c00125ff', '#bf0125ff', '#bf0125ff', '#be0025ff', '#be0026ff', '#bd0026ff', '#bc0026ff', '#bb0026ff', '#ba0026ff', '#b90026ff', '#b80026ff', '#b70026ff', '#b60026ff', '#b50026ff', '#b40026ff', '#b30026ff', '#b20026ff', '#b10026ff', '#b00026ff', '#af0026ff', '#ae0026ff', '#ad0026ff', '#ac0026ff', '#ab0026ff', '#aa0026ff', '#a90026ff', '#a80026ff', '#a70026ff', '#a60026ff', '#a50026ff', '#a40026ff', '#a30026ff', '#a20026ff', '#a10026ff', '#a00026ff', '#9f0026ff', '#9e0026ff', '#9d0026ff', '#9c0026ff', '#9b0026ff', '#9b0026ff', '#9a0026ff', '#990026ff', '#980026ff', '#970026ff', '#960026ff', '#950026ff', '#940026ff', '#930026ff', '#920026ff', '#910026ff', '#900026ff', '#8f0026ff', '#8e0026ff', '#8d0026ff', '#8c0026ff', '#8b0026ff', '#8a0026ff', '#890026ff', '#880026ff', '#870026ff', '#860026ff', '#850026ff', '#840026ff', '#830026ff', '#820026ff', '#810026ff', '#800026ff']);
+    
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.x = d3.scale.linear()
+              .domain([2008.0, 2024.0])
+              .range([0, 450 - 50]);
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.legend = L.control({position: 'topright'});
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.legend.addTo(map_6e192e463db974cfa5e41e10b8131020);
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.xAxis = d3.svg.axis()
+        .scale(color_map_144468d237c11ff6f217fa0b8f9cd4e3.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([2008.0, 2010.0, 2012.0, 2014.0, 2016.0, 2018.0, 2020.0, 2022.0, 2024.0]);
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.g = color_map_144468d237c11ff6f217fa0b8f9cd4e3.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.g.selectAll("rect")
+        .data(color_map_144468d237c11ff6f217fa0b8f9cd4e3.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_144468d237c11ff6f217fa0b8f9cd4e3.x(color_map_144468d237c11ff6f217fa0b8f9cd4e3.color.domain()[i - 1]) : color_map_144468d237c11ff6f217fa0b8f9cd4e3.x.range()[0],
+            x1: i < color_map_144468d237c11ff6f217fa0b8f9cd4e3.color.domain().length ? color_map_144468d237c11ff6f217fa0b8f9cd4e3.x(color_map_144468d237c11ff6f217fa0b8f9cd4e3.color.domain()[i]) : color_map_144468d237c11ff6f217fa0b8f9cd4e3.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_144468d237c11ff6f217fa0b8f9cd4e3.g.call(color_map_144468d237c11ff6f217fa0b8f9cd4e3.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Year of Closure");
+</script>
+</html>
